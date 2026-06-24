@@ -1,0 +1,614 @@
+customer_id,age_group,gender,country,customer_segment,account_type,transaction_id,transaction_date,transaction_amount,transaction_type,channel,merchant_category,fraud_flag,credit_score,risk_rating,complaint_count,mobile_app_usage,internet_banking_usage,login_frequency,income_band,loan_balance,deposit_balance,repayment_status,branch_code,transaction_status,processing_time
+CUST01047,18-25,Female,South Africa,SME,CURRENT,TXN000081,08/08/2024,1250.42,deposit,Branch,Travel,0,340,Medium,-1,,,9999,>1M,,167111.27,Default,br007,Pending,-2
+CUST01079,,F,Tanzania,,Current,TXN000175,12/07/2024,1143.92,deposit,Internet Banking,Retail,0,646,Low,1,0,No,9999,500k-1M,395733.12,390274.31,LATE,BR004,completed,-2
+CUST01240,56-65,male,Uganda,Corporate,savings,TXN000350,08/12/2024,2347.76,Payment,Internet Banking,Retail,1,999,Low,0,Yes,Yes,38,>1M,251647.71,317112.55,N/A,BR002,Failed,600
+CUST01184,36-45,male,GHANA,,Savings,TXN000151,28/01/2024,8411.2,Airtime,ATM,,Yes,999,HIGH,3,Yes,No,9999,500k-1M,,686970.92,current,BR002,Completed,
+CUST01026,65+,female,KENYA,SME,savings,TXN000072,06/01/2024,1603.66,Payment,Internet Banking,Groceries,0,440,low,2,0,FALSE,9999,500k-1M,,256934.16,Late,BR-006,Pending,5.2
+CUST01206,46-55,male,Egypt,SME,savings,TXN000016,06/12/2024,851.98,deposit,Mobile App,Retail,0,,HIGH,2,1,Yes,,,-1000,485329.26,LATE,BR005,Pending,600
+CUST01285,36-45,female,Egypt,,Savings,TXN000455,14/11/2024,605.47,Payment,mobile app,Education,Yes,999,Low,,No,No,,>1M,,266409.68,Current,BR005,Pending,-2
+CUST01126,46-55,F,TZ,SME,Savings,TXN000225,23/01/2024,3464.93,deposit,mobile app,Fuel,0,-50,Medium,2,Yes,Yes,9999,150k-500k,384303.2,340558.11,Default,BR002,Completed,3.22
+CUST01403,56-65,Female,Nigria,,savings,TXN000289,16/07/2024,1937.51,deposit,atm,Telecom,0,999,Medium,2,1,TRUE,37,50k-150k,54003.29,476140.09,Current,BR001,Failed,
+CUST01030,18-25,F,Egypt,Student,Wallet,TXN000224,04/19/2024,471.12,Payment,atm,Retail,,,Low,0,Y,,9999,,476380.07,462497.16,N/A,BR-006,Failed,
+CUST01029,,male,kenya,Retail,CURRENT,TXN000331,24/09/2024,1346.65,Transfer,Branch,Misc,0,1500,HIGH,2,N,,9999,,-1000,99753.27,current,BR001,completed,
+CUST01073,26-35,Male,EGYPT,Student,Savings,TXN000221,17/09/2024,2124.33,Withdrawal,atm,Misc,0,-50,Med,,N,,60,50k-150k,,278282.85,Default,BR001,Failed,
+CUST01396,65+,M,EGYPT,,Savings,TXN000061,10/05/2024,966.1,WITHDRAWAL,Internet Banking,Misc,1,,Medium,0,,Yes,28,150k-500k,,797809.92,current,BR002,Completed,-2
+CUST01362,18-25,Male,Tanzania,SME,Savings,TXN000523,07/11/2024,,Payment,POS,Healthcare,No,-50,High,0,Yes,Yes,9999,500k-1M,,405690.85,Current,br007,Failed,
+CUST01331,46-55,F,Tanzania,,savings,TXN000023,27/04/2024,7577.18,Deposit,USSD,Education,,1500,Medium,,,FALSE,45,500k-1M,-1000,417397.4,current,BR005,Reversed,600
+CUST01355,36-45,Female,EGYPT,Student,Fixed Deposit,TXN000210,01/05/2024,253.54,deposit,Mobile App,,0,-50,Medium,,Y,,,>1M,242380.09,404476.89,LATE,BR002,Reversed,-2
+CUST01315,,,Uganda,,Fixed Deposit,TXN000363,11/03/2024,6464.47,Withdrawal,Mobile App,Utilities,0,1500,Low,2,Y,,,500k-1M,-1000,640937.58,Current,BR-006,completed,600
+CUST01009,,M,S. Africa,Retail,Savings,TXN000453,24/06/2024,4339.48,Payment,atm,Groceries,,682,Med,2,,FALSE,9999,500k-1M,279986.13,637979.69,LATE,BR-006,Reversed,600
+CUST01058,26-35,Female,GHANA,Retail,Current,TXN000292,01/02/2024,2322.19,WITHDRAWAL,Internet Banking,Travel,0,668,Med,0,No,TRUE,11,<50k,-1000,139427.62,Default,BR002,Pending,
+CUST01386,56-65,female,Kenya,Retail,Savings,TXN000239,17/01/2024,10107.82,Withdrawal,Branch,Retail,,,Medium,0,Yes,No,9999,>1M,-1000,278269.23,Current,BR-006,Completed,
+CUST01404,46-55,,Egypt,,Current,TXN000250,24/10/2024,-4134.6,Airtime,Mobile App,Healthcare,0,797,Med,-1,Yes,TRUE,,>1M,,717418.6,current,BR003,Reversed,5.41
+CUST01374,26-35,Male,Tanzania,Retail,Fixed Deposit,TXN000131,24-Aug-24,8902.73,Airtime,POS,Travel,0,,Med,,Yes,No,9999,50k-150k,,103144.64,Default,BR004,Pending,-2
+CUST01316,65+,male,TZ,Retail,Wallet,TXN000339,17/07/2024,5169.04,Airtime,ATM,Telecom,0,-50,HIGH,0,No,No,9999,150k-500k,-1000,780100.93,LATE,BR002,Pending,600
+CUST01080,65+,Male,Egypt,Retail,Fixed Deposit,TXN000392,11/04/2024,3057.92,WITHDRAWAL,ATM,Telecom,0,-50,Medium,2,1,Yes,9999,>1M,-1000,376782.97,LATE,BR003,Completed,-2
+CUST01192,36-45,female,RSA,,Savings,TXN000154,26/07/2024,1741.01,Transfer,Mobile App,Education,0,1500,Med,3,No,FALSE,10,500k-1M,-1000,224647.61,N/A,BR002,completed,
+CUST01247,56-65,female,EGYPT,Affluent,Current,TXN000529,21/07/2024,3083.64,Payment,Mobile App,Education,1,999,low,2,,,25,500k-1M,,742244.57,Default,BR001,Failed,-2
+CUST01386,,Female,Rwanda,,savings,TXN000551,01/05/2024,,Airtime,Branch,Groceries,No,1500,Medium,2,1,,,500k-1M,417401.09,359417.07,Late,BR004,Completed,2.47
+CUST01201,26-35,Male,EGYPT,SME,CURRENT,TXN000371,06/27/2024,2719.63,Airtime,ATM,Groceries,1,999,High,0,No,Yes,52,<50k,,689111.02,Current,BR001,Pending,
+CUST01052,65+,Male,KENYA,Retail,CURRENT,TXN000002,03/05/2024,406.87,WITHDRAWAL,Branch,Utilities,Yes,570,low,3,Yes,FALSE,9999,150k-500k,-1000,494815.8,N/A,BR-006,Pending,
+CUST01204,26-35,male,KENYA,,Wallet,TXN000448,09/10/2024,2832.37,Airtime,USSD,Utilities,1,-50,Med,-1,Yes,FALSE,9999,50k-150k,,637815.89,LATE,br007,Completed,
+CUST01306,46-55,Female,TZ,Retail,Current,TXN000545,22/06/2024,7674700,deposit,POS,Misc,0,384,HIGH,3,N,FALSE,57,<50k,-1000,518375.81,Current,BR002,Pending,7.94
+CUST01195,,Female,KENYA,Student,Fixed Deposit,TXN000437,2024-13-45,10493.4,Airtime,Branch,Groceries,0,1500,High,0,0,TRUE,9999,>1M,371342.46,669482.65,N/A,BR002,Reversed,3.52
+CUST01032,26-35,female,Tanzania,SME,CURRENT,TXN000007,19-Oct-24,3549.93,Payment,Branch,Education,1,525,low,,0,Yes,14,50k-150k,,56685.88,Current,BR001,Reversed,600
+CUST01376,46-55,F,EGYPT,Student,CURRENT,TXN000241,05/02/2024,1024.08,Payment,mobile app,,1,,Low,-1,,FALSE,9999,,183720.7,798978.66,Late,BR001,Pending,3.98
+CUST01395,26-35,female,TZ,SME,savings,TXN000412,04/11/2024,4495.59,Airtime,POS,Telecom,No,1500,HIGH,1,Yes,TRUE,9999,>1M,-1000,654819.67,Current,BR-006,Completed,600
+CUST01373,56-65,,EGYPT,Retail,Wallet,TXN000209,19/08/2024,2910.54,deposit,POS,Travel,Yes,,High,,0,Yes,9999,150k-500k,-1000,249999.78,Default,BR002,Completed,-2
+CUST01230,36-45,Female,Ghana,Corporate,Savings,TXN000368,01/12/2024,12689.63,deposit,POS,Fuel,,999,low,2,Yes,Yes,,>1M,214693.4,286195.61,Default,BR002,completed,-2
+CUST01399,,F,Rwanda,,CURRENT,TXN000471,26/11/2024,3732,Payment,atm,,1,691,HIGH,3,,Yes,36,<50k,58736.68,288560.66,N/A,br007,Reversed,600
+CUST01274,18-25,Male,RSA,Corporate,Fixed Deposit,TXN000348,10/03/2024,349.29,Payment,Internet Banking,Healthcare,0,-50,low,,Yes,No,23,50k-150k,101639.83,289918.75,Late,br007,Failed,
+CUST01390,56-65,Female,KENYA,SME,Wallet,TXN000416,05/02/2024,1014.72,Payment,atm,Healthcare,Yes,,Med,1,N,,9999,>1M,155304.91,647744.63,Late,BR001,Reversed,7.81
+CUST01269,,Female,Rwanda,Student,Fixed Deposit,TXN000383,17/10/2024,2803.23,Transfer,Internet Banking,,,1500,HIGH,2,N,FALSE,,>1M,-1000,21137.7,Default,BR001,Reversed,6.16
+CUST01394,,male,NIGERIA,,CURRENT,TXN000117,15/06/2024,3689.12,Deposit,USSD,Fuel,1,-50,Medium,2,No,TRUE,47,,,134309.93,Current,BR003,Pending,7.09
+CUST01176,46-55,male,Uganda,Retail,Savings,TXN000159,20/08/2024,7724.06,Payment,Mobile App,Utilities,0,1500,High,0,No,,,50k-150k,-1000,557645.93,Default,BR001,completed,
+CUST01369,56-65,F,GHANA,Student,savings,TXN000550,07/10/2024,,Payment,ATM,Education,,999,Med,1,Yes,Yes,9999,>1M,100856.61,266014.34,current,BR003,completed,-2
+CUST01185,26-35,male,kenya,,Wallet,TXN000323,08/02/2024,6157.77,Payment,atm,Retail,0,1500,Med,0,Yes,TRUE,30,>1M,472531.6,784221.41,Late,BR-006,Reversed,600
+CUST01108,65+,M,Kenya,Corporate,CURRENT,TXN000558,04/02/2024,201.3,Airtime,ATM,Utilities,0,-50,low,3,0,TRUE,,<50k,376150.97,249513.76,N/A,br007,Pending,7.04
+CUST01079,46-55,female,South Africa,SME,Current,TXN000311,25/05/2024,51.67,WITHDRAWAL,POS,Healthcare,No,1500,Med,2,N,TRUE,,500k-1M,-1000,56987.48,LATE,BR-006,Pending,7.09
+CUST01336,,male,Rwanda,Retail,savings,TXN000178,24/01/2024,201.33,Deposit,USSD,Utilities,0,372,Medium,,N,Yes,9999,>1M,-1000,594781.95,Current,BR001,Failed,-2
+CUST01281,46-55,Male,Uganda,Student,savings,TXN000138,26/02/2024,"NGN 6,795.34",Airtime,USSD,Healthcare,Yes,-50,HIGH,0,,FALSE,,50k-150k,,596191.17,LATE,BR-006,Reversed,600
+CUST01203,36-45,Female,Rwanda,Affluent,CURRENT,TXN000058,09/09/2024,149.23,WITHDRAWAL,Mobile App,Travel,0,999,Low,-1,0,TRUE,17,500k-1M,,711589.21,current,br007,Failed,600
+CUST01251,,Male,Uganda,Affluent,Fixed Deposit,TXN000534,03/04/2024,"NGN 9,595.86",deposit,Internet Banking,Utilities,0,999,HIGH,1,Y,TRUE,30,,-1000,516007.16,current,BR001,Pending,
+CUST01220,65+,M,EGYPT,SME,Savings,TXN000407,25/09/2024,419.07,Withdrawal,ATM,,0,999,Low,2,N,No,56,>1M,,791044.46,current,br007,Failed,
+CUST01390,26-35,female,KENYA,SME,Current,TXN000432,17/06/2024,550.17,WITHDRAWAL,ATM,,,1500,HIGH,1,,FALSE,,500k-1M,,390647.46,Current,BR-006,Failed,5.95
+CUST01403,18-25,Female,nigeria,Corporate,Savings,TXN000041,17/07/2024,7819.17,Deposit,Mobile App,Education,0,-50,low,-1,No,Yes,42,150k-500k,,631987.73,current,BR005,Completed,-2
+CUST01400,65+,,Uganda,Affluent,Fixed Deposit,TXN000297,28/06/2024,6900.77,Withdrawal,mobile app,Travel,0,1500,Medium,-1,N,No,9999,500k-1M,,186978.55,N/A,br007,completed,600
+CUST01268,26-35,Male,Egypt,Retail,Savings,TXN000337,07/06/2024,1002.96,Transfer,atm,Retail,No,-50,HIGH,,Yes,TRUE,,<50k,,569268.48,N/A,BR002,Pending,2.05
+CUST01274,18-25,F,South Africa,,Fixed Deposit,TXN000567,18-Aug-24,2585.15,deposit,Internet Banking,Groceries,Yes,471,Med,-1,No,FALSE,,<50k,-1000,466303.37,LATE,BR005,Completed,-2
+CUST01071,36-45,Male,Rwanda,SME,Savings,TXN000461,13/05/2024,252.53,deposit,POS,Retail,No,999,HIGH,-1,No,FALSE,11,150k-500k,468145.79,593573.34,Current,br007,Completed,
+CUST01037,65+,M,GHANA,Affluent,Wallet,TXN000405,27/12/2024,9384.49,Payment,USSD,Education,0,-50,Med,,Y,Yes,,50k-150k,-1000,86217.43,LATE,BR002,completed,5.81
+CUST01167,65+,Female,TZ,Student,savings,TXN000506,14/07/2024,3301.03,deposit,ATM,Retail,,1500,High,3,1,No,9999,50k-150k,-1000,484065.13,Late,BR003,Completed,2.44
+CUST01313,36-45,male,GHANA,SME,Savings,TXN000193,04/01/2024,-3197.11,Airtime,USSD,Groceries,0,999,low,0,,No,9999,500k-1M,,247614.64,N/A,BR005,Completed,600
+CUST01033,18-25,,Uganda,Affluent,Wallet,TXN000369,14/05/2024,3683.22,Deposit,Mobile App,Education,0,-50,Medium,,1,Yes,9999,>1M,,254226.64,Default,BR005,Reversed,
+CUST01117,26-35,F,KENYA,Corporate,Current,TXN000223,21/04/2024,1033.95,Transfer,USSD,Fuel,No,,High,0,Yes,FALSE,,50k-150k,,115953.02,Current,BR-006,completed,600
+CUST01256,46-55,Female,Tanzania,,savings,TXN000087,25/02/2024,411.17,Airtime,USSD,Fuel,No,999,Med,-1,Y,Yes,,<50k,,392482.76,Current,BR003,Failed,600
+CUST01161,46-55,Female,Rwanda,Retail,savings,TXN000096,10/04/2024,8025.43,Deposit,USSD,Fuel,0,,HIGH,-1,N,,9999,150k-500k,-1000,393380.7,Late,br007,Reversed,600
+CUST01233,56-65,female,Uganda,Corporate,Savings,TXN000208,2024-13-45,2423.44,deposit,POS,Utilities,,1500,HIGH,0,No,FALSE,38,500k-1M,-1000,189399.97,LATE,BR001,Failed,600
+CUST01410,,F,GHANA,Retail,Current,TXN000054,01/06/2024,214.36,Payment,ATM,Travel,1,-50,HIGH,,,,54,150k-500k,142531.51,218233.04,Late,BR004,Completed,
+CUST01109,46-55,Male,Uganda,,Current,TXN000492,06/11/2024,2541.27,Transfer,Internet Banking,Misc,No,999,low,0,No,No,9999,>1M,-1000,307432.4,Late,BR002,Reversed,
+CUST01008,56-65,Female,Uganda,Student,Savings,TXN000456,20/08/2024,12854.39,deposit,Branch,Utilities,Yes,-50,Med,1,1,TRUE,40,500k-1M,-1000,73714.82,Default,BR004,Reversed,4.51
+CUST01174,,M,Tanzania,Student,Fixed Deposit,TXN000504,23/06/2024,1845.4,Withdrawal,Internet Banking,Restaurants,Yes,364,Med,1,N,No,,>1M,,507097.14,Late,BR-006,completed,600
+CUST01156,26-35,Female,TZ,,Wallet,TXN000025,25/10/2024,3225.02,Airtime,USSD,Utilities,Yes,999,Medium,1,Y,TRUE,14,150k-500k,,95643.79,Late,BR003,Failed,
+CUST01077,26-35,Male,EGYPT,SME,Fixed Deposit,TXN000249,14/09/2024,2112.3,Payment,ATM,Fuel,No,,Medium,1,,TRUE,41,150k-500k,-1000,188903.86,Late,BR001,Pending,
+CUST01124,56-65,Male,Rwanda,SME,Current,TXN000445,08/01/2024,1228.86,Transfer,POS,Retail,Yes,1500,High,-1,No,TRUE,,,,629899.16,Late,BR005,Pending,-2
+CUST01102,,female,Ghana,Retail,Current,TXN000062,2024-13-45,,Payment,atm,Misc,0,1500,HIGH,3,Yes,Yes,,150k-500k,-1000,382932.09,Late,br007,completed,600
+CUST01206,65+,Female,Rwanda,Retail,Wallet,TXN000597,12/11/2024,9222.86,Deposit,POS,Healthcare,,450,low,-1,Yes,FALSE,34,<50k,42176.25,144359.18,LATE,BR003,Reversed,-2
+CUST01253,46-55,F,EGYPT,Retail,Wallet,TXN000100,05/12/2024,7049.04,deposit,USSD,Telecom,Yes,-50,High,-1,Y,Yes,2,<50k,,13025.08,LATE,BR003,Pending,
+CUST01019,56-65,Female,Uganda,,Savings,TXN000160,01/11/2024,3807.32,Withdrawal,Mobile App,Retail,Yes,,low,2,Yes,No,9999,150k-500k,-1000,228805.21,LATE,BR004,Reversed,
+CUST01112,36-45,Male,kenya,Student,Fixed Deposit,TXN000306,2024-13-45,6751.43,deposit,Internet Banking,Restaurants,1,677,Medium,0,N,TRUE,9999,,249788.01,570024.89,LATE,BR003,Reversed,
+CUST01033,56-65,F,EGYPT,,Savings,TXN000125,12/04/2024,583.11,Payment,atm,Telecom,0,,low,-1,No,Yes,15,>1M,,563707.16,current,BR003,Pending,600
+CUST01288,,Male,Kenya,Affluent,Current,TXN000076,19/08/2024,7059.09,Deposit,atm,Misc,0,-50,High,0,Y,,28,,-1000,466518.14,Current,BR004,Pending,600
+CUST01290,46-55,Male,Egypt,Corporate,Fixed Deposit,TXN000378,25/09/2024,2980.03,deposit,atm,Utilities,1,450,High,1,,TRUE,,,-1000,205871.61,current,BR-006,Completed,-2
+CUST01163,65+,male,Egypt,Retail,Current,TXN000321,12/13/2024,1277.81,Transfer,Internet Banking,Groceries,Yes,,HIGH,1,0,FALSE,,500k-1M,-1000,168490.47,Default,BR004,Reversed,
+CUST01114,56-65,male,Nigeria,Corporate,savings,TXN000235,28/07/2024,669.06,Transfer,atm,Utilities,0,783,High,2,No,FALSE,9999,>1M,322392.92,95483.73,LATE,BR005,Completed,2.29
+CUST01393,26-35,F,Nigria,SME,Savings,TXN000563,16/11/2024,6161.42,Payment,Branch,Healthcare,0,999,HIGH,,No,FALSE,9999,,,770806.54,Late,BR001,Pending,600
+CUST01376,65+,Male,Rwanda,Affluent,CURRENT,TXN000596,21/12/2024,1065.59,Payment,mobile app,Misc,0,-50,Low,0,,,9999,500k-1M,,326740.13,N/A,BR-006,Completed,600
+CUST01243,36-45,M,Rwanda,,savings,TXN000446,13/09/2024,671.03,Payment,Internet Banking,Restaurants,0,,Med,-1,N,TRUE,40,50k-150k,14002.35,466584.3,current,br007,completed,1.27
+CUST01384,46-55,male,S. Africa,Corporate,savings,TXN000132,02/10/2024,11832.54,deposit,Mobile App,Misc,0,713,Low,0,0,No,9999,<50k,-1000,135187.79,LATE,BR001,Reversed,3
+CUST01416,36-45,F,Rwanda,Retail,Wallet,TXN000549,06/05/2024,4295.63,Deposit,Internet Banking,Fuel,0,1500,HIGH,-1,Y,FALSE,,>1M,-1000,694507.09,N/A,BR003,Failed,
+CUST01356,46-55,F,NIGERIA,Retail,Wallet,TXN000136,09/02/2024,437.98,deposit,POS,Groceries,Yes,-50,Med,0,1,FALSE,,,-1000,703960.2,current,br007,completed,
+CUST01072,,female,RSA,,Current,TXN000482,15/03/2024,834.7,WITHDRAWAL,Branch,Retail,Yes,666,Med,-1,,,9999,500k-1M,-1000,256442.45,N/A,BR004,Reversed,600
+CUST01279,56-65,F,EGYPT,Corporate,CURRENT,TXN000059,2024-13-45,433.01,deposit,mobile app,Restaurants,Yes,999,HIGH,3,0,FALSE,9999,,,33884.13,LATE,BR002,Completed,-2
+CUST01300,46-55,female,South Africa,Retail,Fixed Deposit,TXN000161,04/09/2024,-5341.27,Airtime,Mobile App,Healthcare,0,-50,High,,,,9999,150k-500k,,181036.41,Current,br007,completed,600
+CUST01131,65+,male,EGYPT,SME,Fixed Deposit,TXN000162,17/06/2024,13532.11,Airtime,ATM,Retail,Yes,999,Medium,,N,,55,150k-500k,,54043.41,Current,BR004,Pending,
+CUST01374,18-25,Male,Ghana,SME,Current,TXN000261,10/07/2024,7959.25,deposit,Internet Banking,Utilities,0,999,High,,Yes,,9999,500k-1M,,204131.12,N/A,BR-006,Pending,600
+CUST01034,56-65,Male,Tanzania,Retail,Current,TXN000307,07/05/2024,3751.42,Withdrawal,mobile app,Fuel,0,-50,Med,3,1,Yes,14,<50k,308174.34,247078.9,Late,BR-006,completed,
+CUST01275,65+,,SOUTH AFRICA,Student,Fixed Deposit,TXN000011,05-Feb-24,568.36,Transfer,Mobile App,Utilities,,,Med,1,No,FALSE,9999,>1M,-1000,787082.65,Late,BR003,Pending,6.48
+CUST01291,26-35,female,RSA,,Savings,TXN000083,27/02/2024,3199.75,deposit,ATM,Groceries,Yes,999,low,,0,FALSE,29,50k-150k,,135412.57,LATE,BR002,Completed,600
+CUST01349,26-35,M,Rwanda,,Savings,TXN000490,05/05/2024,1693.37,Deposit,atm,Travel,0,1500,Med,2,1,TRUE,14,>1M,-1000,139482.53,Late,BR004,Failed,-2
+CUST01337,26-35,Male,EGYPT,Retail,CURRENT,TXN000562,07/05/2024,4352.11,Payment,Mobile App,Retail,No,,Medium,1,No,No,,150k-500k,,39146.74,Default,BR002,Reversed,600
+CUST01371,36-45,F,GHANA,Retail,savings,TXN000516,11/03/2024,5315.05,Transfer,atm,Education,No,-50,HIGH,1,N,TRUE,,,-1000,601327.38,Late,BR001,Pending,600
+CUST01196,36-45,Male,Uganda,,savings,TXN000442,11/13/2024,2112.52,Airtime,Branch,Telecom,1,,low,3,1,FALSE,60,150k-500k,162510.16,133167.1,LATE,br007,Failed,5.04
+CUST01347,18-25,Female,nigeria,Affluent,Wallet,TXN000360,20/09/2024,,Withdrawal,mobile app,Travel,1,-50,High,,N,FALSE,,,-1000,340679.36,LATE,BR-006,Reversed,-2
+CUST01189,65+,male,GHANA,SME,Current,TXN000211,02/06/2024,6102.74,deposit,USSD,Utilities,0,-50,Low,1,Yes,No,38,50k-150k,,616294.23,N/A,BR004,Reversed,600
+CUST01157,56-65,,Rwanda,Student,savings,TXN000466,12/09/2024,3223.46,Airtime,Branch,Healthcare,No,,Medium,-1,1,No,9999,150k-500k,110928.55,158941.7,Late,BR001,Failed,
+CUST01389,36-45,female,Uganda,Retail,CURRENT,TXN000099,21/08/2024,613.4,deposit,POS,Utilities,Yes,1500,HIGH,0,0,Yes,9999,500k-1M,-1000,749068.89,Late,BR004,Failed,600
+CUST01233,56-65,F,SOUTH AFRICA,,Current,TXN000293,10/19/2024,6632.16,Withdrawal,USSD,Telecom,No,-50,High,,Yes,Yes,9,50k-150k,397449.06,426043.77,Current,BR-006,Pending,-2
+CUST01373,36-45,male,Nigeria,SME,Wallet,TXN000578,02/12/2024,2538.25,deposit,POS,Groceries,0,999,High,-1,No,Yes,23,,-1000,414997.53,LATE,BR001,Pending,-2
+CUST01289,36-45,,Rwanda,Retail,Wallet,TXN000097,15/02/2024,3401.21,WITHDRAWAL,Mobile App,Fuel,0,-50,Medium,-1,0,FALSE,34,,494887.86,588790.96,current,BR-006,Pending,
+CUST01046,36-45,Male,Tanzania,Retail,Savings,TXN000319,07/10/2024,10740.07,deposit,Mobile App,,No,999,High,,0,FALSE,9999,50k-150k,,646757.99,Default,BR004,completed,1.87
+CUST01227,65+,Female,Tanzania,,CURRENT,TXN000308,28/10/2024,1303.62,Payment,POS,Telecom,No,-50,low,,,TRUE,48,,-1000,265016.22,Current,BR001,Reversed,2.01
+CUST01159,26-35,female,Uganda,Student,Savings,TXN000290,07/04/2024,1491.15,deposit,Branch,Utilities,Yes,,High,1,1,TRUE,,50k-150k,-1000,469151.93,LATE,BR004,Reversed,5.46
+CUST01114,26-35,female,Nigeria,Retail,Savings,TXN000255,25/07/2024,10261.64,Payment,atm,Utilities,Yes,534,Medium,0,Y,No,,,-1000,208126.22,Late,BR002,Pending,-2
+CUST01263,36-45,F,Uganda,Affluent,CURRENT,TXN000317,02/24/2024,12.54,Payment,USSD,,,629,Medium,-1,Yes,TRUE,,,,320132.15,Late,br007,completed,4.94
+CUST01300,46-55,female,South Africa,Retail,Fixed Deposit,TXN000161,04/09/2024,-5341.27,Airtime,Mobile App,Healthcare,0,-50,High,,,,9999,150k-500k,,181036.41,Current,br007,completed,600
+CUST01001,36-45,Female,Uganda,,savings,TXN000254,07/05/2024,3958.63,Deposit,mobile app,Restaurants,0,384,Medium,0,1,No,9999,500k-1M,,361191.92,N/A,br007,completed,
+CUST01042,36-45,female,Rwanda,,savings,TXN000483,11/11/2024,2703.11,deposit,ATM,Healthcare,No,-50,Low,1,N,TRUE,9999,<50k,-1000,665005.76,Default,BR004,Failed,1.59
+CUST01080,56-65,male,Nigeria,Corporate,Savings,TXN000046,02/10/2024,1270.38,Deposit,Branch,Retail,Yes,-50,Medium,2,Y,No,9999,50k-150k,,88711.82,Default,BR003,Pending,600
+CUST01102,18-25,,SOUTH AFRICA,SME,Savings,TXN000390,19/07/2024,2702.04,Airtime,Mobile App,Restaurants,0,,Medium,2,,,51,,43009.15,503292.53,LATE,BR-006,completed,
+CUST01040,46-55,Female,Rwanda,,CURRENT,TXN000203,15/06/2024,390.08,Payment,ATM,Utilities,Yes,779,low,1,0,FALSE,30,<50k,473724.14,688877.02,Default,BR004,Reversed,-2
+CUST01315,56-65,M,RSA,Retail,CURRENT,TXN000423,13/08/2024,1874.94,Deposit,USSD,Retail,Yes,,Med,1,1,No,9999,<50k,155195.35,728832.6,current,br007,Completed,7.33
+CUST01291,46-55,,Rwanda,Retail,Current,TXN000130,14/11/2024,1521.43,Payment,mobile app,Education,,1500,low,,No,TRUE,40,<50k,,167505.89,Current,BR005,Failed,
+CUST01252,36-45,female,Uganda,Affluent,Wallet,TXN000281,17/11/2024,1254.94,Withdrawal,Internet Banking,Restaurants,Yes,716,HIGH,0,N,No,58,50k-150k,-1000,540077.94,Late,BR005,Reversed,
+CUST01046,46-55,Male,Kenya,Corporate,Current,TXN000280,09/06/2024,3121.62,Payment,Mobile App,Groceries,1,999,Medium,0,Y,FALSE,43,50k-150k,,145166.27,current,BR005,Failed,-2
+CUST01198,46-55,female,Uganda,SME,savings,TXN000095,16/03/2024,1710.38,deposit,Internet Banking,Healthcare,1,999,Medium,,No,TRUE,7,500k-1M,152690,298644.86,Default,BR002,Failed,600
+CUST01067,18-25,female,Egypt,Student,Current,TXN000449,19/05/2024,931.42,Deposit,mobile app,Utilities,1,1500,Med,3,,Yes,9999,500k-1M,,93125.11,LATE,BR002,completed,
+CUST01114,65+,M,Egypt,SME,Current,TXN000547,05/12/2024,1999.5,Deposit,Mobile App,Groceries,Yes,1500,HIGH,1,1,TRUE,9999,<50k,,334375.68,Late,BR001,Reversed,-2
+CUST01194,18-25,Male,GHANA,Retail,Fixed Deposit,TXN000088,20/10/2024,1523.16,WITHDRAWAL,POS,Travel,Yes,999,Low,1,,TRUE,6,150k-500k,,359074.94,N/A,BR004,Completed,600
+CUST01194,56-65,,TZ,SME,Fixed Deposit,TXN000090,12/07/2024,1630.29,Deposit,Branch,,,999,HIGH,3,0,No,,50k-150k,,774980.18,LATE,br007,completed,600
+CUST01158,46-55,M,Nigria,Student,Fixed Deposit,TXN000427,17/11/2024,4895.53,Payment,Internet Banking,Groceries,,-50,HIGH,2,No,No,17,500k-1M,,207483.27,Late,BR005,completed,3.57
+CUST01390,46-55,Female,GHANA,Student,Savings,TXN000129,07/17/2024,4250.29,Transfer,mobile app,Groceries,No,999,Medium,-1,Y,TRUE,9999,50k-150k,147025.56,376429.25,Late,BR003,Reversed,6.94
+CUST01214,36-45,male,SOUTH AFRICA,Student,Wallet,TXN000358,26/09/2024,-813.75,Airtime,Branch,Utilities,0,999,Med,0,No,TRUE,,,-1000,551064.39,current,BR005,Failed,600
+CUST01282,,female,EGYPT,SME,Wallet,TXN000152,19/10/2024,4244.2,deposit,Internet Banking,Education,0,,High,0,N,,32,<50k,-1000,8473.35,Late,br007,Reversed,
+CUST01239,46-55,F,Rwanda,Affluent,savings,TXN000367,20/06/2024,2875.14,Deposit,mobile app,Travel,0,999,Medium,0,0,TRUE,25,>1M,-1000,249268.1,Default,BR003,Completed,600
+CUST01309,65+,M,SOUTH AFRICA,SME,CURRENT,TXN000012,14/12/2024,910.6,Airtime,ATM,Utilities,Yes,-50,Low,1,,Yes,9999,,,35269.41,Late,BR005,Completed,
+CUST01034,26-35,M,RSA,Affluent,Current,TXN000010,15/05/2024,510.82,Transfer,Mobile App,Groceries,0,-50,low,3,Yes,FALSE,9999,>1M,,747765.01,current,BR001,Completed,-2
+CUST01129,36-45,F,Uganda,,Wallet,TXN000417,24/12/2024,5396.17,Deposit,Mobile App,Travel,No,999,Med,-1,Yes,TRUE,44,<50k,,436470.99,N/A,BR002,Completed,
+CUST01282,,F,Tanzania,Retail,Savings,TXN000531,08/07/2024,658.1,Withdrawal,atm,,0,,Medium,-1,,FALSE,9999,50k-150k,308148.32,72942.2,Late,BR003,Completed,-2
+CUST01415,46-55,female,Uganda,SME,Fixed Deposit,TXN000382,19/05/2024,2037.4,deposit,atm,Healthcare,0,999,Medium,0,1,FALSE,,500k-1M,402190.12,546656.95,N/A,BR001,Failed,
+CUST01052,46-55,female,TZ,,Wallet,TXN000102,02/04/2024,8514.16,Withdrawal,Mobile App,,1,,Med,3,1,Yes,9999,500k-1M,,577945.62,Default,BR004,Pending,
+CUST01298,36-45,,Uganda,SME,Fixed Deposit,TXN000524,08/26/2024,3280.89,Withdrawal,Branch,Misc,0,999,low,,0,FALSE,,500k-1M,29996.99,90202.07,N/A,BR002,Completed,5.36
+CUST01074,46-55,M,RSA,,Savings,TXN000035,08/10/2024,3338.18,deposit,Internet Banking,Utilities,1,,low,3,,FALSE,9999,150k-500k,-1000,114494.18,current,BR003,Reversed,-2
+CUST01057,26-35,,GHANA,Retail,Wallet,TXN000222,08/02/2024,2752.76,deposit,atm,,,344,HIGH,1,No,FALSE,,150k-500k,,34653.99,N/A,BR002,Pending,
+CUST01284,56-65,,Rwanda,Student,Fixed Deposit,TXN000282,18/12/2024,4.01,Airtime,Mobile App,Retail,0,,Low,0,N,TRUE,,500k-1M,,799393.5,LATE,BR001,Failed,
+CUST01015,26-35,male,EGYPT,,CURRENT,TXN000520,08/13/2024,7898.16,deposit,POS,Fuel,,1500,HIGH,,N,Yes,24,500k-1M,481384.13,379897.43,Current,BR003,Pending,4.4
+CUST01168,,male,Uganda,,Savings,TXN000034,10/12/2024,3942.55,Deposit,ATM,Restaurants,0,-50,Low,3,Yes,No,9999,150k-500k,460464.55,597413.09,Default,BR003,Reversed,3.53
+CUST01104,18-25,M,Rwanda,,savings,TXN000566,04/03/2024,3062.71,Transfer,Branch,,Yes,-50,Low,,No,No,47,<50k,109235.23,29292.69,Default,br007,completed,600
+CUST01227,56-65,male,Uganda,Student,Savings,TXN000133,16/02/2024,3169.95,Withdrawal,Branch,Retail,0,,HIGH,1,N,Yes,9999,50k-150k,-1000,560581.08,Default,BR-006,Reversed,3.41
+CUST01060,65+,female,Ghana,Corporate,Fixed Deposit,TXN000341,18/12/2024,186.74,Transfer,Internet Banking,Travel,0,,HIGH,0,Y,Yes,41,150k-500k,494768.13,427675.94,Default,BR001,Completed,-2
+CUST01002,65+,,Uganda,Student,Savings,TXN000149,09/15/2024,1453.6,deposit,Mobile App,Retail,No,,Med,,,,9,<50k,-1000,667798.69,Default,BR001,Failed,
+CUST01251,18-25,Male,TZ,SME,CURRENT,TXN000338,02/02/2024,1451670,Airtime,Branch,Fuel,0,-50,Med,1,Y,TRUE,9999,500k-1M,,190601.78,Current,BR001,completed,600
+CUST01337,26-35,male,Tanzania,,Fixed Deposit,TXN000485,14/01/2024,17397.62,WITHDRAWAL,mobile app,Travel,0,1500,High,0,No,,9999,50k-150k,,544316.58,N/A,BR003,completed,-2
+CUST01003,65+,female,GHANA,,savings,TXN000569,09/19/2024,143.05,Airtime,POS,Education,1,730,Medium,-1,No,No,4,>1M,,183405.7,current,BR-006,completed,-2
+CUST01281,18-25,male,Rwanda,Corporate,Wallet,TXN000335,2024-13-45,1571.5,Payment,atm,Retail,No,-50,High,0,Yes,Yes,50,500k-1M,,400000.75,Current,br007,Reversed,
+CUST01139,56-65,Male,Rwanda,SME,Wallet,TXN000029,09/08/2024,,Withdrawal,mobile app,Misc,0,999,low,0,Yes,No,9999,<50k,293561.47,799657.93,N/A,BR003,Reversed,-2
+CUST01388,56-65,female,NIGERIA,SME,CURRENT,TXN000272,07/11/2024,-9312.07,Airtime,atm,Restaurants,No,999,Med,2,0,,,500k-1M,,727384.68,Late,BR003,Completed,-2
+CUST01119,36-45,M,Egypt,,CURRENT,TXN000296,23/04/2024,"NGN 1,779.48",Airtime,Internet Banking,Healthcare,1,-50,High,-1,Y,No,6,<50k,35674.34,436820.85,Default,BR003,Pending,-2
+CUST01078,46-55,F,nigeria,,Fixed Deposit,TXN000120,13/09/2024,NGN 15.29,Withdrawal,POS,Travel,1,,High,0,No,No,,50k-150k,,675015.26,N/A,BR001,Pending,600
+CUST01188,,,Uganda,Retail,Current,TXN000577,24/04/2024,439.67,deposit,POS,Restaurants,Yes,557,HIGH,-1,Yes,FALSE,9999,,,756913.37,Late,BR003,Failed,-2
+CUST01055,,Female,EGYPT,Student,Fixed Deposit,TXN000565,18/07/2024,1156.96,Deposit,Mobile App,Utilities,,1500,HIGH,0,N,FALSE,39,50k-150k,,36642.75,Late,BR004,Completed,600
+CUST01079,,F,Tanzania,,Current,TXN000175,12/07/2024,1143.92,deposit,Internet Banking,Retail,0,646,Low,1,0,No,9999,500k-1M,395733.12,390274.31,LATE,BR004,completed,-2
+CUST01305,36-45,F,Uganda,Retail,CURRENT,TXN000015,10/11/2024,5215.84,deposit,Mobile App,Retail,No,823,HIGH,3,No,TRUE,9999,150k-500k,-1000,740460.13,LATE,BR004,Pending,
+CUST01064,65+,Female,Ghana,Affluent,CURRENT,TXN000548,13/03/2024,1327.79,Withdrawal,POS,Utilities,0,-50,Low,,N,FALSE,26,<50k,-1000,754062.98,Default,BR004,Failed,-2
+CUST01148,46-55,,Uganda,Affluent,Current,TXN000356,11/02/2024,3377.12,Transfer,atm,Fuel,Yes,1500,Med,,Yes,TRUE,,,,87295.24,N/A,BR001,Pending,1.52
+CUST01135,56-65,female,Rwanda,Student,CURRENT,TXN000542,11/11/2024,989.2,Airtime,Internet Banking,Misc,1,1500,Med,0,0,FALSE,,,,680475.06,current,BR005,Pending,-2
+CUST01082,46-55,M,Kenya,,CURRENT,TXN000418,20/06/2024,879.43,Transfer,Internet Banking,Telecom,No,416,High,2,No,,31,>1M,-1000,334517.87,LATE,BR002,completed,0.17
+CUST01339,,,Uganda,Retail,CURRENT,TXN000599,12/02/2024,2831.92,Withdrawal,Branch,Healthcare,,999,low,-1,0,,9999,500k-1M,-1000,67211.3,N/A,BR004,Failed,600
+CUST01132,56-65,Female,Ghana,,Current,TXN000236,25/10/2024,631.94,Withdrawal,POS,Restaurants,0,999,Med,0,Y,TRUE,9999,150k-500k,,38971.92,Default,BR-006,Pending,2.4
+CUST01327,26-35,F,Kenya,Student,Fixed Deposit,TXN000001,25/01/2024,5412.22,WITHDRAWAL,Internet Banking,Travel,1,442,High,3,N,Yes,1,150k-500k,-1000,481614.98,Late,BR002,Pending,600
+CUST01228,65+,,Ghana,Student,Savings,TXN000113,2024-13-45,3808.78,Payment,atm,Restaurants,No,1500,HIGH,3,N,Yes,,>1M,,159566.25,Default,BR004,Pending,
+CUST01220,46-55,female,Nigeria,,Fixed Deposit,TXN000552,07/11/2024,6485.86,Deposit,mobile app,Utilities,0,726,High,-1,1,Yes,9999,,-1000,441887.4,Late,BR004,Completed,
+CUST01082,65+,male,Uganda,,Fixed Deposit,TXN000155,15-Apr-24,1117.11,Airtime,atm,Education,0,,Medium,3,No,Yes,,50k-150k,-1000,766590.67,N/A,BR005,Failed,4.83
+CUST01290,56-65,Female,Ghana,SME,Fixed Deposit,TXN000115,02/06/2024,7248.59,Deposit,Internet Banking,,0,-50,Med,0,N,Yes,5,50k-150k,116311.68,15942.39,Current,br007,completed,-2
+CUST01071,26-35,Male,KENYA,Retail,savings,TXN000232,22/11/2024,100.43,Deposit,mobile app,Fuel,,1500,low,0,Y,Yes,9999,150k-500k,-1000,177715.09,current,BR005,completed,-2
+CUST01287,,Male,Tanzania,SME,CURRENT,TXN000426,24/02/2024,1670.87,Withdrawal,USSD,Misc,Yes,-50,Med,0,Yes,Yes,9999,50k-150k,,472918.82,LATE,br007,Failed,
+CUST01420,46-55,Male,South Africa,SME,Current,TXN000305,06/06/2024,996.76,Deposit,mobile app,Misc,0,,High,2,1,Yes,,<50k,-1000,151638.03,N/A,BR002,Reversed,600
+CUST01327,26-35,F,Kenya,Student,Fixed Deposit,TXN000001,25/01/2024,5412.22,WITHDRAWAL,Internet Banking,Travel,1,442,High,3,N,Yes,1,150k-500k,-1000,481614.98,Late,BR002,Pending,600
+CUST01018,26-35,,Rwanda,Corporate,Current,TXN000259,17/12/2024,714.38,WITHDRAWAL,USSD,,0,1500,Med,2,Y,,,>1M,-1000,693503.44,Late,BR005,Completed,1.08
+CUST01035,65+,Female,South Africa,SME,Wallet,TXN000309,10/04/2024,4024.5,Transfer,atm,Misc,1,,Medium,0,1,,53,150k-500k,118155.06,340991.85,N/A,BR001,Pending,
+CUST01356,,Female,EGYPT,Student,savings,TXN000557,12/02/2024,28949.18,Deposit,Mobile App,Retail,,721,High,0,N,TRUE,,150k-500k,203435.44,785003.09,Current,BR002,completed,2.69
+CUST01178,65+,Female,Uganda,Student,Current,TXN000322,10/08/2024,298.13,Withdrawal,Branch,Fuel,No,,Med,0,No,TRUE,9999,50k-150k,432927.72,679847.78,LATE,BR-006,Completed,600
+CUST01343,36-45,F,RSA,Affluent,Wallet,TXN000147,11/07/2024,7223.39,Deposit,mobile app,Misc,0,745,Low,0,N,TRUE,2,>1M,36624.01,635371.83,Current,BR-006,completed,
+CUST01122,26-35,female,NIGERIA,,CURRENT,TXN000006,13/05/2024,8415.25,deposit,POS,Education,1,1500,HIGH,-1,1,No,9999,500k-1M,-1000,132101.57,Current,BR002,Failed,600
+CUST01087,46-55,Female,Tanzania,,Wallet,TXN000064,23/02/2024,,Deposit,Internet Banking,Education,0,-50,low,,No,,9999,500k-1M,,711197.51,N/A,BR002,Pending,-2
+CUST01351,,female,Egypt,,Current,TXN000075,25/11/2024,4072.31,Airtime,Mobile App,Healthcare,0,-50,low,0,No,FALSE,,>1M,-1000,298899.87,LATE,BR003,Completed,600
+CUST01042,18-25,male,Tanzania,Corporate,Savings,TXN000101,2024-13-45,212.71,Withdrawal,atm,Utilities,1,1500,Medium,,Yes,Yes,,500k-1M,-1000,180952.69,Current,BR-006,Completed,5.47
+CUST01231,18-25,M,South Africa,Student,Current,TXN000042,20/05/2024,5196.7,deposit,POS,Travel,Yes,999,HIGH,,Yes,Yes,,>1M,213136.81,392215.08,Default,BR004,completed,7.29
+CUST01129,65+,Female,nigeria,SME,Savings,TXN000057,02/08/2024,6214.5,Transfer,Branch,Groceries,,-50,Medium,0,Yes,TRUE,,<50k,406754.43,664306.93,Default,BR003,completed,600
+CUST01235,36-45,M,Egypt,,Fixed Deposit,TXN000127,05/21/2024,2514.67,deposit,USSD,Fuel,1,-50,Medium,0,1,TRUE,9999,>1M,,238780.74,Late,BR001,completed,0.95
+CUST01195,36-45,male,Nigria,Student,Wallet,TXN000014,11/09/2024,1006.35,Deposit,Mobile App,Retail,0,999,Medium,-1,,No,14,>1M,,262609.56,Default,BR001,Completed,-2
+CUST01097,56-65,M,EGYPT,Affluent,Current,TXN000474,02/28/2024,5655,deposit,USSD,,1,-50,HIGH,0,Yes,Yes,9999,<50k,-1000,323709.67,Default,BR002,Reversed,-2
+CUST01024,36-45,M,KENYA,Corporate,CURRENT,TXN000274,19/12/2024,1415.07,deposit,Internet Banking,Travel,0,999,HIGH,-1,0,,9999,,-1000,532416.44,Late,BR001,Pending,
+CUST01015,56-65,,Tanzania,Retail,Current,TXN000298,19/06/2024,3446.34,deposit,mobile app,Travel,,1500,Medium,1,No,FALSE,9999,500k-1M,-1000,430083.21,Current,BR005,Reversed,2.68
+CUST01405,46-55,F,Ghana,Retail,Current,TXN000103,03/10/2024,"NGN 1,297.21",Airtime,ATM,Restaurants,0,591,High,0,1,,32,50k-150k,,516935.82,N/A,br007,completed,
+CUST01324,65+,M,Egypt,Affluent,Current,TXN000361,18/08/2024,21494.94,Payment,Mobile App,Fuel,0,406,low,3,N,Yes,9999,<50k,-1000,79761.66,Default,br007,Reversed,3.61
+CUST01356,36-45,Female,Nigria,Student,savings,TXN000312,01-Mar-24,10442.9,Deposit,Mobile App,Misc,0,1500,Med,-1,Y,Yes,9999,500k-1M,,484348.51,N/A,BR-006,completed,
+CUST01125,65+,female,Nigria,SME,Wallet,TXN000079,18/01/2024,2311.87,Airtime,Internet Banking,Misc,0,,Med,0,,,9999,500k-1M,-1000,654705.99,current,BR004,Completed,
+CUST01074,65+,male,nigeria,Retail,Wallet,TXN000143,11/11/2024,912.63,Airtime,ATM,Groceries,1,1500,Med,3,,,55,150k-500k,-1000,311109.33,Late,BR005,Reversed,-2
+CUST01064,65+,F,Rwanda,Affluent,Fixed Deposit,TXN000294,26/11/2024,5197.51,Airtime,ATM,Fuel,No,,Medium,-1,0,,,50k-150k,259446.18,257458.51,N/A,br007,Failed,600
+CUST01361,65+,Male,Rwanda,Student,Wallet,TXN000422,01/03/2024,1494.48,WITHDRAWAL,POS,Education,0,843,Med,0,0,TRUE,45,150k-500k,-1000,353317.45,LATE,BR004,Failed,-2
+CUST01174,56-65,female,Tanzania,Corporate,CURRENT,TXN000139,16/03/2024,6784.1,Withdrawal,mobile app,Utilities,Yes,-50,High,,0,TRUE,,>1M,-1000,177397.69,Late,BR002,Completed,-2
+CUST01050,18-25,Female,GHANA,Retail,Savings,TXN000553,25-Feb-24,740.61,WITHDRAWAL,USSD,Telecom,0,1500,Low,2,No,No,23,500k-1M,,247593.94,Default,BR001,completed,4.38
+CUST01057,46-55,Male,Rwanda,Corporate,CURRENT,TXN000460,02/06/2024,29.13,Withdrawal,Branch,Telecom,,709,HIGH,1,Y,Yes,9999,<50k,-1000,67561.18,Late,BR005,Failed,600
+CUST01226,18-25,male,SOUTH AFRICA,Student,Current,TXN000533,15/02/2024,NGN 624.35,deposit,ATM,Travel,No,,HIGH,0,No,TRUE,,150k-500k,-1000,232543.05,Default,BR004,Completed,600
+CUST01376,46-55,male,Egypt,Corporate,Current,TXN000257,02-Sep-24,-400.52,Airtime,Internet Banking,Retail,Yes,,Medium,1,1,,9999,>1M,404926.48,202925.51,N/A,BR003,Reversed,-2
+CUST01109,46-55,,Rwanda,Corporate,CURRENT,TXN000240,02/12/2024,4791.07,Deposit,POS,Education,,,Low,2,N,No,32,500k-1M,,98892.32,Default,BR004,completed,
+CUST01291,26-35,F,Ghana,Student,savings,TXN000598,28/09/2024,2959.59,Deposit,Internet Banking,Telecom,0,478,Low,1,1,FALSE,9999,150k-500k,-1000,472506.17,Current,BR005,Failed,-2
+CUST01348,36-45,male,Rwanda,Corporate,Wallet,TXN000386,15/02/2024,2265.03,Payment,mobile app,Telecom,0,,Low,0,1,,,150k-500k,,534028.42,N/A,BR001,completed,600
+CUST01249,46-55,F,Rwanda,Retail,Fixed Deposit,TXN000503,21/06/2024,2284.48,Transfer,mobile app,,,799,Low,0,Yes,TRUE,,>1M,303908.83,188121.94,Late,BR005,Pending,
+CUST01317,26-35,,Egypt,Student,Fixed Deposit,TXN000037,27/05/2024,3958.11,Withdrawal,USSD,Education,Yes,999,High,0,1,TRUE,46,,,261375.3,Default,br007,Completed,
+CUST01053,,male,Uganda,Student,Fixed Deposit,TXN000141,21/09/2024,2805.61,Withdrawal,Branch,Fuel,No,999,HIGH,1,Y,FALSE,51,,-1000,560011.43,Default,BR-006,Pending,-2
+CUST01344,,F,Ghana,Retail,savings,TXN000142,05/07/2024,2803.86,Deposit,ATM,Fuel,,630,High,3,N,,9999,50k-150k,-1000,598294.98,Default,BR-006,Pending,-2
+CUST01018,,male,EGYPT,Corporate,savings,TXN000497,01/26/2024,1635.69,Withdrawal,Mobile App,Fuel,,1500,Low,0,Y,TRUE,35,50k-150k,,66644.9,Default,BR001,Failed,3.65
+CUST01270,18-25,,Ghana,,Wallet,TXN000078,08/01/2024,7202.92,Withdrawal,Mobile App,Utilities,No,1500,HIGH,3,N,No,,<50k,,150784.36,N/A,BR005,Completed,7.01
+CUST01190,56-65,Male,TZ,Student,Fixed Deposit,TXN000164,25/11/2024,9135.89,Withdrawal,atm,Utilities,0,1500,Med,-1,1,TRUE,25,>1M,375084.69,43318.54,N/A,BR003,Completed,600
+CUST01214,56-65,female,RSA,,Savings,TXN000020,05/07/2024,990.88,WITHDRAWAL,atm,Telecom,,1500,Low,,0,FALSE,46,150k-500k,420252.83,784577.58,N/A,BR003,Failed,600
+CUST01049,46-55,F,Tanzania,Retail,Savings,TXN000237,16/01/2024,51.93,Transfer,USSD,Restaurants,No,1500,Medium,1,No,Yes,13,500k-1M,251691.45,636085.39,current,BR005,Pending,4.51
+CUST01230,65+,,S. Africa,SME,CURRENT,TXN000526,13/05/2024,2610.83,Transfer,atm,Misc,0,1500,High,0,1,,,150k-500k,,479857.43,current,BR005,Pending,3.4
+CUST01322,56-65,Male,KENYA,Student,Wallet,TXN000263,22/08/2024,"NGN 2,526.10",deposit,USSD,Restaurants,0,999,High,0,0,TRUE,53,>1M,,454828.55,Current,br007,completed,4.45
+CUST01088,36-45,F,kenya,,CURRENT,TXN000205,27/04/2024,10686.68,Withdrawal,ATM,Telecom,Yes,798,Med,1,1,Yes,,50k-150k,,55686.11,N/A,BR005,Pending,600
+CUST01292,26-35,male,South Africa,Retail,Current,TXN000498,01/02/2024,,Payment,Branch,Fuel,1,999,Low,0,1,FALSE,,,393065.82,490052.15,Current,BR004,Pending,
+CUST01076,26-35,female,Nigeria,Student,savings,TXN000402,14/12/2024,3756.58,Airtime,Mobile App,Healthcare,,-50,Low,0,N,,9999,>1M,,610089.47,N/A,BR-006,completed,5.23
+CUST01154,,F,NIGERIA,Retail,Savings,TXN000026,19/02/2024,1282.54,deposit,ATM,Telecom,Yes,,Medium,0,,Yes,,>1M,,272564.75,Default,BR001,Failed,-2
+CUST01287,36-45,,Tanzania,Student,Fixed Deposit,TXN000044,19/05/2024,2116.02,Withdrawal,mobile app,Healthcare,0,733,HIGH,3,Y,TRUE,9999,>1M,253706.27,525389.04,LATE,BR-006,completed,1.87
+CUST01280,65+,Female,Rwanda,Student,savings,TXN000576,24/11/2024,8496.22,Transfer,mobile app,Retail,0,1500,Medium,3,0,Yes,,<50k,-1000,52424.44,Late,BR004,Failed,-2
+CUST01070,,F,Ghana,SME,Wallet,TXN000190,20/01/2024,1026.15,deposit,mobile app,Restaurants,No,999,low,0,0,No,48,>1M,,693703.2,LATE,BR005,completed,-2
+CUST01041,,Female,RSA,Corporate,CURRENT,TXN000313,13/12/2024,725.24,deposit,USSD,Groceries,No,-50,Medium,3,Y,FALSE,9999,500k-1M,434708.98,508944.2,Current,BR001,Completed,-2
+CUST01198,46-55,female,Uganda,SME,savings,TXN000095,16/03/2024,1710.38,deposit,Internet Banking,Healthcare,1,999,Medium,,No,TRUE,7,500k-1M,152690,298644.86,Default,BR002,Failed,600
+CUST01052,65+,male,Egypt,Retail,Wallet,TXN000345,08/02/2024,2866.01,Deposit,USSD,Restaurants,0,445,Low,0,No,FALSE,24,>1M,,180707.51,Default,BR001,Pending,600
+CUST01377,36-45,Female,nigeria,Corporate,Current,TXN000320,05/08/2024,255.53,Airtime,USSD,Telecom,,1500,Med,-1,Y,No,9999,,300808.82,85268.74,LATE,BR001,completed,600
+CUST01006,36-45,,RSA,Affluent,Fixed Deposit,TXN000165,05/10/2024,3479.62,Airtime,Branch,Utilities,0,,Med,0,Y,FALSE,,150k-500k,,339154.3,Late,BR005,Reversed,-2
+CUST01064,46-55,,NIGERIA,Student,CURRENT,TXN000538,13/05/2024,305.01,Withdrawal,Internet Banking,Groceries,No,605,Medium,2,N,TRUE,23,500k-1M,157272.59,600249.1,Default,BR004,Reversed,
+CUST01006,65+,Female,GHANA,Retail,Current,TXN000265,21/03/2024,2465.95,Withdrawal,mobile app,Misc,,999,HIGH,,0,FALSE,,50k-150k,43817.57,11100.73,Current,BR003,Reversed,0.98
+CUST01003,46-55,M,TZ,,Fixed Deposit,TXN000435,18/01/2024,880.66,Transfer,Internet Banking,Retail,0,1500,High,2,Y,Yes,,500k-1M,230125.36,711332.75,Current,BR004,Pending,-2
+CUST01040,36-45,female,EGYPT,Affluent,Wallet,TXN000535,04/01/2024,645.51,WITHDRAWAL,Branch,,0,999,Med,0,N,TRUE,9999,<50k,33389.45,496755.72,Current,br007,Completed,
+CUST01157,,M,Rwanda,Student,savings,TXN000527,08/06/2024,1951.65,Airtime,Branch,Restaurants,,1500,High,0,0,FALSE,9999,50k-150k,-1000,50347.5,Default,BR005,Reversed,-2
+CUST01183,56-65,Male,Ghana,Retail,Wallet,TXN000304,12/04/2024,5012.82,Withdrawal,Branch,Utilities,Yes,,Low,,Yes,,9999,500k-1M,358205.22,312494.71,Current,BR001,Pending,2.54
+CUST01084,36-45,M,Nigeria,Retail,savings,TXN000540,25/08/2024,631.01,Payment,mobile app,Healthcare,0,576,Low,3,No,,23,,,638808.94,current,BR-006,completed,-2
+CUST01014,36-45,Female,Uganda,Student,Current,TXN000507,04/01/2024,1839.46,Deposit,POS,Healthcare,No,1500,low,3,No,,,150k-500k,,364754.59,Late,BR003,Reversed,600
+CUST01338,26-35,male,EGYPT,Corporate,Fixed Deposit,TXN000145,25/04/2024,6240.84,Airtime,atm,Healthcare,0,999,Med,0,1,Yes,9999,<50k,-1000,429628.76,Current,BR-006,Pending,
+CUST01405,56-65,F,Ghana,Corporate,Wallet,TXN000277,27/12/2024,6126.07,Airtime,Internet Banking,Telecom,0,999,HIGH,0,,FALSE,0,,273768.65,696341.23,N/A,br007,Reversed,-2
+CUST01380,18-25,F,RSA,,savings,TXN000459,14/06/2024,201.87,Withdrawal,Branch,Utilities,No,,HIGH,3,,Yes,5,150k-500k,-1000,579614.67,N/A,BR003,completed,
+CUST01138,65+,M,EGYPT,Retail,savings,TXN000397,20/01/2024,1429.06,WITHDRAWAL,POS,Retail,No,999,HIGH,2,Yes,FALSE,,50k-150k,22207.78,303461.58,Current,BR003,completed,5.31
+CUST01045,56-65,Female,kenya,Affluent,Savings,TXN000184,04/07/2024,2134.89,deposit,POS,Telecom,,999,Med,3,0,Yes,,<50k,,492976.8,Current,BR-006,Completed,600
+CUST01072,65+,female,Egypt,Student,CURRENT,TXN000202,15/12/2024,751.47,Airtime,POS,Retail,Yes,-50,High,0,No,Yes,9999,50k-150k,,43039.9,LATE,br007,completed,
+CUST01015,18-25,M,Nigeria,Affluent,CURRENT,TXN000513,04/01/2024,11733.82,Transfer,Internet Banking,Retail,No,1500,low,,1,No,6,50k-150k,-1000,152628.36,Current,BR-006,Completed,-2
+CUST01144,36-45,Male,Uganda,Student,CURRENT,TXN000051,10/06/2024,5957.12,deposit,mobile app,Telecom,1,999,HIGH,1,Yes,,,,-1000,681253.01,Current,BR003,completed,
+CUST01385,,F,Tanzania,SME,Fixed Deposit,TXN000473,08/12/2024,7450.1,Transfer,atm,Restaurants,0,999,Medium,1,,TRUE,9999,50k-150k,,250339.48,Default,BR001,Completed,
+CUST01061,,male,S. Africa,Retail,Wallet,TXN000561,15/04/2024,4966.26,Withdrawal,Internet Banking,Misc,1,555,Low,,N,No,,150k-500k,-1000,2254.13,Default,BR004,Reversed,1.76
+CUST01148,18-25,male,Egypt,SME,Wallet,TXN000494,05/01/2024,6484.75,Payment,atm,Travel,No,,low,0,1,,26,50k-150k,-1000,375654.14,Current,BR005,Pending,
+CUST01069,18-25,,S. Africa,Student,Wallet,TXN000385,10/02/2024,1431.8,Payment,atm,Telecom,0,1500,Medium,0,Yes,Yes,9999,>1M,-1000,77490.91,Default,br007,completed,600
+CUST01371,18-25,male,EGYPT,SME,CURRENT,TXN000283,10/16/2024,947.2,Deposit,ATM,Misc,0,999,Medium,-1,0,FALSE,17,500k-1M,,273303.84,current,BR-006,Reversed,-2
+CUST01382,18-25,,EGYPT,Student,CURRENT,TXN000476,04/06/2024,6506.87,WITHDRAWAL,Branch,Restaurants,0,999,Med,1,1,TRUE,9999,,-1000,197516.29,LATE,BR005,Failed,
+CUST01165,65+,female,Tanzania,Retail,Savings,TXN000359,14/04/2024,652.46,deposit,Internet Banking,,,1500,low,0,,FALSE,9999,50k-150k,,754659,Default,BR002,Failed,600
+CUST01395,36-45,Female,Ghana,Affluent,Fixed Deposit,TXN000458,25/04/2024,1475460,Transfer,ATM,Telecom,0,-50,low,-1,No,,22,<50k,,742772.4,N/A,BR001,Reversed,
+CUST01365,18-25,Female,Rwanda,Student,CURRENT,TXN000592,25-Feb-24,5178.82,WITHDRAWAL,USSD,Groceries,0,,low,1,Yes,,51,>1M,,579990.53,LATE,BR005,Pending,600
+CUST01279,26-35,Female,NIGERIA,Retail,CURRENT,TXN000366,09/03/2024,2950.47,Transfer,atm,Fuel,0,,Low,3,Yes,,32,150k-500k,,91830.77,LATE,BR005,Pending,-2
+CUST01282,,Male,Nigria,Retail,Wallet,TXN000575,04/09/2024,217.98,Airtime,ATM,Retail,Yes,-50,Med,3,Y,Yes,9999,,-1000,147813.14,Default,br007,Failed,-2
+CUST01016,,Female,SOUTH AFRICA,Retail,Savings,TXN000028,20/05/2024,4909.73,deposit,USSD,Education,0,764,Low,1,,,42,500k-1M,-1000,179847.56,LATE,BR003,Reversed,-2
+CUST01222,,Female,Egypt,Student,Fixed Deposit,TXN000589,09/02/2024,6122.52,WITHDRAWAL,Branch,Retail,No,999,low,,Yes,No,9999,>1M,,78602.22,Late,BR002,completed,
+CUST01078,36-45,,Ghana,Affluent,Current,TXN000053,15/10/2024,7119.6,Payment,USSD,Travel,0,1500,HIGH,2,Y,No,9999,>1M,-1000,627040.29,N/A,BR002,Failed,
+CUST01381,65+,F,Rwanda,Student,CURRENT,TXN000124,07/08/2024,,WITHDRAWAL,mobile app,Education,0,999,HIGH,-1,N,Yes,55,150k-500k,-1000,354488.49,Current,BR005,Failed,-2
+CUST01313,26-35,female,Nigeria,Student,Wallet,TXN000196,16/11/2024,3388.62,Payment,Internet Banking,,Yes,841,Medium,,0,,9999,,-1000,678238.38,Default,BR002,Completed,-2
+CUST01144,26-35,Female,EGYPT,Retail,Savings,TXN000511,24/02/2024,2860.59,WITHDRAWAL,Branch,Fuel,0,-50,HIGH,1,No,TRUE,,,-1000,228305.38,LATE,BR003,Failed,600
+CUST01003,18-25,,Rwanda,SME,Fixed Deposit,TXN000408,12/02/2024,1845.23,WITHDRAWAL,Mobile App,Fuel,0,1500,Med,-1,N,TRUE,58,<50k,358125.45,355524.05,Default,BR002,completed,-2
+CUST01200,56-65,Female,Ghana,Student,CURRENT,TXN000300,07/05/2024,553.09,Deposit,Internet Banking,Education,0,1500,Low,0,,No,,500k-1M,-1000,379824.02,current,br007,Failed,-2
+CUST01019,26-35,male,nigeria,Affluent,CURRENT,TXN000073,01/03/2024,3356.97,deposit,POS,Retail,Yes,999,HIGH,,1,,31,,,218269.67,Late,BR002,completed,-2
+CUST01078,,M,Nigeria,,Savings,TXN000364,21/03/2024,,Deposit,Mobile App,Utilities,,1500,low,0,No,No,19,>1M,267708.61,581050.1,Current,BR001,Failed,600
+CUST01259,26-35,Female,Kenya,Affluent,savings,TXN000541,14/03/2024,10809.12,Airtime,USSD,Fuel,0,999,Low,0,,No,9999,<50k,,176190.04,Late,br007,Completed,0.45
+CUST01244,26-35,male,Egypt,Retail,savings,TXN000377,19/08/2024,746.44,Deposit,atm,Fuel,,,low,2,No,Yes,,<50k,213961.27,142012.04,Current,br007,Completed,2.18
+CUST01025,,F,KENYA,Student,Savings,TXN000195,04/03/2024,20291.22,deposit,USSD,Restaurants,0,-50,HIGH,2,0,,23,500k-1M,,258257.48,current,BR002,Failed,7.19
+CUST01111,18-25,male,Egypt,Corporate,Current,TXN000381,2024-13-45,218.64,Airtime,Mobile App,Retail,0,999,Medium,0,Y,No,,<50k,-1000,532260.8,N/A,BR003,Failed,
+CUST01221,36-45,male,Tanzania,Student,savings,TXN000248,07/19/2024,2139.89,deposit,ATM,Healthcare,0,1500,Medium,0,0,,55,150k-500k,288421.65,528644.97,N/A,BR002,Failed,600
+CUST01310,26-35,male,Nigeria,Student,Wallet,TXN000480,12/04/2024,4591760,Deposit,Internet Banking,,0,-50,High,0,Y,FALSE,19,>1M,-1000,450691.76,Late,BR004,Failed,
+CUST01138,46-55,,Nigria,Student,savings,TXN000186,17/04/2024,,Payment,ATM,Groceries,,999,Medium,-1,Yes,Yes,9999,>1M,,406832.27,Default,BR003,Reversed,-2
+CUST01151,65+,male,Ghana,Retail,Fixed Deposit,TXN000134,10/08/2024,3177.52,Transfer,atm,Groceries,0,999,Low,0,Yes,Yes,58,50k-150k,-1000,395283.22,Current,br007,Pending,7.6
+CUST01006,36-45,,RSA,Affluent,Fixed Deposit,TXN000165,05/10/2024,3479.62,Airtime,Branch,Utilities,0,,Med,0,Y,FALSE,,150k-500k,,339154.3,Late,BR005,Reversed,-2
+CUST01307,46-55,male,TZ,Corporate,CURRENT,TXN000291,06/07/2024,3829.53,WITHDRAWAL,ATM,Restaurants,Yes,466,Low,-1,Yes,FALSE,14,<50k,-1000,184219.21,Default,BR001,completed,
+CUST01352,36-45,F,KENYA,Student,Wallet,TXN000246,26/02/2024,486.28,Payment,Mobile App,Misc,Yes,633,Medium,,,FALSE,9999,150k-500k,,16321.82,N/A,BR005,Pending,3.81
+CUST01371,18-25,M,Tanzania,SME,Current,TXN000180,01/25/2024,3312.61,WITHDRAWAL,USSD,Healthcare,Yes,999,HIGH,2,N,Yes,46,>1M,-1000,13041.96,current,BR005,Failed,-2
+CUST01043,18-25,,kenya,Corporate,CURRENT,TXN000093,24/03/2024,611.09,Withdrawal,Internet Banking,Healthcare,Yes,,Medium,1,N,Yes,9999,150k-500k,,53739.47,current,BR004,Reversed,0.45
+CUST01381,46-55,male,EGYPT,Retail,savings,TXN000465,15/04/2024,1645.46,WITHDRAWAL,Mobile App,Utilities,Yes,999,HIGH,-1,1,FALSE,42,,,610615.46,Default,BR002,Pending,-2
+CUST01389,46-55,,GHANA,Corporate,Current,TXN000464,13/10/2024,2192.87,Payment,Branch,Education,0,1500,HIGH,-1,No,No,0,150k-500k,317315.33,129508.16,current,BR004,Completed,600
+CUST01241,65+,F,RSA,Affluent,savings,TXN000469,23/12/2024,1419.98,WITHDRAWAL,atm,Retail,1,,Medium,-1,0,TRUE,,>1M,474743.95,305201.37,Current,BR001,completed,7.14
+CUST01075,18-25,Male,Rwanda,,CURRENT,TXN000266,28/07/2024,88.23,Payment,USSD,Groceries,Yes,1500,low,2,Yes,FALSE,37,500k-1M,-1000,663560.61,N/A,BR005,completed,-2
+CUST01201,26-35,Male,TZ,Retail,CURRENT,TXN000207,16/12/2024,2083.72,deposit,mobile app,Telecom,Yes,,Low,0,No,,,50k-150k,419981.34,230776.7,LATE,br007,Reversed,
+CUST01351,,male,Ghana,Retail,Savings,TXN000522,24/03/2024,888.19,Airtime,ATM,Education,0,1500,low,-1,N,Yes,19,150k-500k,-1000,466855.85,LATE,BR004,Completed,600
+CUST01136,18-25,male,Uganda,Retail,CURRENT,TXN000085,28/08/2024,1867.56,Payment,POS,,0,,Low,,,Yes,9999,>1M,379792.93,324222.64,Current,BR002,Failed,600
+CUST01018,26-35,,TZ,Corporate,CURRENT,TXN000273,04/09/2024,5165.37,deposit,ATM,Restaurants,0,-50,High,0,Yes,,,,-1000,128021.87,current,BR003,Completed,-2
+CUST01189,,Female,GHANA,SME,Wallet,TXN000013,11/12/2024,545.32,WITHDRAWAL,mobile app,Misc,0,999,Med,,No,Yes,9999,50k-150k,,779069.62,Default,BR002,Completed,
+CUST01369,18-25,,kenya,SME,Current,TXN000177,04/04/2024,13664.82,Payment,Branch,Utilities,Yes,-50,Low,-1,1,No,,>1M,-1000,257619.24,LATE,br007,Reversed,0.86
+CUST01088,18-25,Female,Egypt,Retail,Savings,TXN000238,19/09/2024,5457.51,Deposit,atm,Utilities,0,,High,1,No,No,8,<50k,212402.54,62188.24,Current,BR003,Completed,600
+CUST01390,,,Uganda,,Savings,TXN000284,07/06/2024,6191.59,Payment,ATM,Fuel,0,-50,Med,-1,,FALSE,43,<50k,,661973.47,Default,BR-006,Pending,
+CUST01220,36-45,Female,Nigria,Retail,Fixed Deposit,TXN000354,03/06/2024,1093.07,Deposit,Internet Banking,Education,Yes,,High,0,,Yes,,500k-1M,273568.03,399129.81,Default,br007,Reversed,
+CUST01027,,Female,Ghana,Retail,Wallet,TXN000571,05/04/2024,6416.67,WITHDRAWAL,Branch,Misc,1,-50,Low,0,1,,,>1M,262537.94,207726.58,Late,BR005,Reversed,
+CUST01046,46-55,female,South Africa,Corporate,CURRENT,TXN000251,18-Jun-24,5934.59,Payment,atm,Misc,No,,Medium,0,No,Yes,11,150k-500k,,326700.44,Late,BR003,Reversed,6.92
+CUST01184,,M,TZ,SME,Savings,TXN000135,09/08/2024,5365900,WITHDRAWAL,mobile app,Education,0,346,low,,0,No,,,-1000,214647.52,Late,BR001,Failed,-2
+CUST01169,26-35,female,EGYPT,Affluent,Wallet,TXN000421,10/06/2024,,Airtime,Mobile App,Fuel,1,,HIGH,-1,1,No,9,500k-1M,237732,258670.3,N/A,br007,Reversed,7.18
+CUST01083,46-55,Female,Egypt,,Current,TXN000126,08/01/2024,1342.28,Transfer,USSD,Misc,0,-50,High,-1,No,No,43,500k-1M,,410624.99,N/A,br007,Pending,6.93
+CUST01056,,Female,Nigeria,Corporate,Fixed Deposit,TXN000344,02/04/2024,567.08,Airtime,USSD,Misc,0,,HIGH,-1,Yes,Yes,9999,<50k,-1000,67972.15,Current,br007,Completed,600
+CUST01061,,M,Nigria,Student,Wallet,TXN000047,21/12/2024,5497.69,Payment,USSD,Utilities,0,-50,low,3,1,TRUE,,<50k,430882.18,348975.68,Default,BR002,completed,3.73
+CUST01349,26-35,M,EGYPT,SME,savings,TXN000005,01-Sep-24,473.12,Airtime,POS,Education,0,764,Low,3,,No,32,<50k,,673335.48,Default,br007,Pending,
+CUST01311,18-25,Female,Rwanda,SME,Savings,TXN000194,05/01/2024,977.85,WITHDRAWAL,ATM,Misc,Yes,1500,HIGH,0,1,,0,>1M,,495812.83,Default,BR003,Completed,
+CUST01320,36-45,Female,RSA,Student,savings,TXN000499,2024-13-45,6805.14,deposit,Mobile App,Fuel,0,-50,Medium,2,Y,,55,150k-500k,-1000,5050.71,Late,BR002,Reversed,
+CUST01235,56-65,female,Tanzania,SME,Fixed Deposit,TXN000048,27/11/2024,2295.86,Withdrawal,Branch,Utilities,No,-50,Medium,3,Yes,FALSE,,150k-500k,372902.41,266454.9,Late,BR002,completed,1.43
+CUST01000,46-55,,Uganda,SME,Savings,TXN000157,14/09/2024,-1850.54,Transfer,Branch,Groceries,0,1500,Med,-1,N,FALSE,9999,,-1000,460896.65,Current,BR005,completed,-2
+CUST01044,26-35,female,Egypt,Affluent,CURRENT,TXN000326,20/06/2024,353.62,Airtime,Branch,Utilities,0,999,Med,2,0,Yes,,<50k,-1000,723695.61,Late,BR001,Failed,600
+CUST01110,18-25,,Rwanda,Student,Savings,TXN000570,02/03/2024,755.62,Withdrawal,Mobile App,Healthcare,,999,low,1,1,No,9999,500k-1M,399151.06,157015.72,LATE,BR005,Failed,600
+CUST01405,46-55,F,Ghana,Retail,Current,TXN000103,03/10/2024,"NGN 1,297.21",Airtime,ATM,Restaurants,0,591,High,0,1,,32,50k-150k,,516935.82,N/A,br007,completed,
+CUST01310,18-25,Male,GHANA,Corporate,Wallet,TXN000065,07/08/2024,7907.11,WITHDRAWAL,Internet Banking,Restaurants,0,1500,HIGH,-1,Y,,35,,,98017.53,Default,BR002,Failed,
+CUST01196,18-25,male,RSA,SME,Wallet,TXN000033,03/03/2024,178.51,Payment,USSD,Restaurants,0,1500,HIGH,2,Yes,No,9999,,165997.35,699352.3,N/A,BR-006,Completed,600
+CUST01363,26-35,,Uganda,Affluent,Savings,TXN000098,2024-13-45,3830.03,deposit,Internet Banking,Fuel,,511,Medium,3,Y,,34,,-1000,234107.76,Default,br007,Failed,4.62
+CUST01295,56-65,,South Africa,Student,Wallet,TXN000069,12/24/2024,3503.7,Deposit,Internet Banking,Healthcare,0,,Medium,0,1,Yes,12,>1M,,121145.01,Default,BR-006,Reversed,600
+CUST01312,18-25,F,S. Africa,Affluent,Current,TXN000505,23/05/2024,2682.32,Withdrawal,POS,Groceries,1,999,low,2,,No,,50k-150k,,370151.41,Late,BR-006,Completed,-2
+CUST01295,46-55,female,NIGERIA,Retail,Wallet,TXN000279,01/11/2024,5554.12,Payment,Internet Banking,Travel,0,319,Low,0,Y,No,9999,>1M,-1000,355383.58,Default,BR004,Pending,-2
+CUST01341,18-25,male,Egypt,,Current,TXN000568,27/05/2024,755.3,deposit,mobile app,Telecom,0,,Med,-1,No,No,,<50k,-1000,359573.61,Late,BR004,Reversed,4.99
+CUST01205,26-35,female,Tanzania,Affluent,CURRENT,TXN000112,13/01/2024,3492.2,deposit,mobile app,Telecom,1,376,High,0,0,FALSE,51,50k-150k,,98022.13,Late,BR003,Pending,7.54
+CUST01149,46-55,female,TZ,SME,Wallet,TXN000440,04/02/2024,,Payment,Branch,Fuel,,-50,Low,3,N,FALSE,48,>1M,,445151.59,Default,BR002,Failed,
+CUST01144,65+,female,Ghana,SME,CURRENT,TXN000410,22/09/2024,"NGN 4,028.94",Withdrawal,USSD,Fuel,0,,High,2,Yes,FALSE,9999,,104273.49,31050.18,N/A,BR004,Reversed,600
+CUST01023,56-65,F,Uganda,SME,CURRENT,TXN000108,04/05/2024,8382,Deposit,mobile app,Groceries,1,999,Medium,3,N,Yes,23,>1M,,591660.79,Default,BR-006,Completed,-2
+CUST01140,18-25,Female,GHANA,SME,Savings,TXN000438,03/04/2024,-2785.11,Airtime,USSD,,0,,low,1,Yes,FALSE,13,>1M,-1000,103813.55,N/A,BR-006,completed,-2
+CUST01211,26-35,male,Uganda,Retail,Fixed Deposit,TXN000189,05/08/2024,2340.79,Airtime,atm,Misc,0,,High,0,No,No,9999,50k-150k,-1000,453634.47,N/A,BR004,Reversed,
+CUST01410,36-45,,Uganda,SME,Fixed Deposit,TXN000413,18/04/2024,6064.4,deposit,Branch,Groceries,1,-50,Low,,Yes,,,<50k,267736.33,670519.24,current,BR001,completed,
+CUST01392,36-45,,Uganda,Affluent,Current,TXN000441,03/13/2024,1735.61,Transfer,ATM,Healthcare,,999,High,,Yes,TRUE,9999,500k-1M,266254.2,687245.27,LATE,BR002,Completed,600
+CUST01163,26-35,female,Tanzania,SME,Savings,TXN000501,15/07/2024,3368.46,Payment,POS,Travel,,1500,low,,,FALSE,,500k-1M,,250779.74,N/A,BR002,Failed,
+CUST01036,46-55,,Uganda,Retail,Savings,TXN000444,25/05/2024,8594.55,WITHDRAWAL,Mobile App,Telecom,Yes,846,High,2,,Yes,,500k-1M,-1000,615009.21,LATE,BR003,Failed,600
+CUST01179,18-25,female,SOUTH AFRICA,SME,Savings,TXN000420,06/05/2024,3964.29,Transfer,Mobile App,Telecom,No,999,HIGH,3,0,TRUE,9999,>1M,,448889.84,LATE,br007,Reversed,
+CUST01158,,Male,EGYPT,Student,Savings,TXN000478,06/12/2024,1058.8,deposit,Branch,Fuel,0,1500,HIGH,-1,1,,20,50k-150k,485444.26,569690.97,Late,BR001,Reversed,2.93
+CUST01154,18-25,female,Rwanda,,Fixed Deposit,TXN000212,20-Jul-24,1910.86,deposit,USSD,Restaurants,0,999,High,3,,FALSE,,150k-500k,,305603.28,Current,BR003,completed,2.59
+CUST01371,56-65,female,Rwanda,Corporate,Fixed Deposit,TXN000150,01-Mar-24,1767.3,Transfer,Branch,Fuel,0,540,Med,3,Yes,No,,,-1000,527537.8,LATE,BR004,Pending,
+CUST01008,46-55,male,Rwanda,Corporate,savings,TXN000226,25/07/2024,706.01,Transfer,Branch,Misc,Yes,1500,Low,-1,No,FALSE,,>1M,-1000,506721.84,Default,BR-006,Completed,6.9
+CUST01072,46-55,Male,Egypt,Corporate,CURRENT,TXN000327,05/12/2024,12625.76,Airtime,Branch,Utilities,,-50,Med,1,No,,27,,,305425.85,Default,BR-006,Failed,600
+CUST01005,36-45,female,Uganda,Corporate,Fixed Deposit,TXN000486,05/04/2024,4762.93,WITHDRAWAL,Mobile App,Travel,1,528,Medium,0,No,FALSE,4,<50k,268469.85,754802.5,current,br007,Reversed,600
+CUST01337,,Male,nigeria,Affluent,savings,TXN000429,23/10/2024,4833.11,Payment,mobile app,Education,No,,Medium,2,Y,TRUE,41,150k-500k,,245020.5,LATE,BR003,completed,
+CUST01092,,Female,nigeria,Student,Wallet,TXN000114,06/03/2024,,Withdrawal,POS,Restaurants,Yes,587,HIGH,3,Y,,14,<50k,-1000,192922.24,LATE,BR-006,Pending,4.32
+CUST01147,36-45,female,Rwanda,,CURRENT,TXN000256,16/01/2024,557.96,Withdrawal,POS,Travel,0,999,Med,2,No,FALSE,50,50k-150k,,188388.5,LATE,BR004,Reversed,
+CUST01327,56-65,male,Uganda,Student,Savings,TXN000074,23/06/2024,"NGN 2,896.74",Withdrawal,ATM,Misc,0,,Low,2,Y,No,,500k-1M,,603005.32,Default,BR002,Reversed,-2
+CUST01366,,F,TZ,Affluent,Savings,TXN000252,07/09/2024,85.2,Transfer,Mobile App,Fuel,0,335,High,1,1,FALSE,9999,50k-150k,,722525.68,Late,BR004,Pending,
+CUST01259,56-65,M,GHANA,Affluent,CURRENT,TXN000481,26/07/2024,,Payment,Mobile App,Misc,0,850,HIGH,1,Yes,TRUE,43,<50k,295053.16,720184.48,Default,BR002,Pending,
+CUST01038,65+,F,EGYPT,,Savings,TXN000372,19/04/2024,4658,Payment,atm,Retail,0,999,High,0,1,FALSE,7,,159666.34,602427.86,N/A,BR002,Completed,600
+CUST01315,65+,Male,NIGERIA,Student,Fixed Deposit,TXN000198,11/11/2024,862.76,Airtime,ATM,Fuel,0,1500,HIGH,,No,FALSE,9999,,-1000,716742.88,Default,br007,Pending,600
+CUST01336,26-35,Female,Tanzania,Corporate,Current,TXN000463,11/05/2024,2598.74,deposit,atm,Misc,0,,HIGH,3,No,No,9999,>1M,41094.49,573814.45,current,BR005,Pending,2.33
+CUST01169,18-25,F,Nigria,Affluent,Wallet,TXN000462,09/15/2024,139.29,Withdrawal,ATM,Retail,No,717,low,-1,1,,10,500k-1M,,717750.96,Default,BR002,Pending,0.83
+CUST01378,26-35,M,GHANA,SME,savings,TXN000457,18/06/2024,303.32,Payment,Branch,,No,1500,High,0,N,,18,,,15097.32,current,BR002,Failed,600
+CUST01036,18-25,M,Uganda,SME,CURRENT,TXN000572,03/10/2024,5353.69,Deposit,Branch,Education,,999,Low,0,Yes,Yes,49,500k-1M,-1000,19365.77,current,BR-006,Pending,6.5
+CUST01417,56-65,,Kenya,,Fixed Deposit,TXN000347,08/11/2024,3449.51,Payment,mobile app,Healthcare,1,,low,1,No,No,,>1M,,339065.66,current,BR004,completed,600
+CUST01347,46-55,,Rwanda,Corporate,savings,TXN000389,06/01/2024,5706.95,Transfer,Mobile App,Education,0,542,low,,N,FALSE,59,50k-150k,,91579.03,LATE,BR005,completed,6.79
+CUST01270,18-25,male,nigeria,Corporate,Current,TXN000591,01/05/2024,333.98,Payment,atm,Education,0,999,HIGH,2,N,No,9999,150k-500k,-1000,759538.97,N/A,BR002,Completed,
+CUST01192,26-35,Female,Tanzania,SME,Savings,TXN000052,17/02/2024,4436.06,WITHDRAWAL,ATM,Misc,No,839,High,3,Y,Yes,,>1M,90131.46,273385.88,Late,BR005,Reversed,
+CUST01118,56-65,Male,Uganda,Student,Current,TXN000094,15/04/2024,825.08,Deposit,USSD,Misc,0,705,low,2,1,FALSE,24,>1M,352367.81,222675.86,LATE,BR003,completed,5.66
+CUST01098,18-25,,kenya,Corporate,savings,TXN000285,18/03/2024,3925.84,Withdrawal,Internet Banking,Utilities,Yes,,HIGH,1,Yes,TRUE,9999,50k-150k,353484,5708.32,LATE,BR001,Failed,600
+CUST01329,65+,,EGYPT,Student,Current,TXN000218,03/04/2024,3053.76,Deposit,Internet Banking,Education,0,760,Med,1,Yes,TRUE,9999,<50k,21407.27,169342.54,N/A,BR005,Completed,600
+CUST01379,,male,kenya,,Current,TXN000353,17/03/2024,6590.52,Airtime,POS,Education,0,1500,Medium,1,No,No,,150k-500k,-1000,74632.69,Default,BR003,completed,
+CUST01365,26-35,,GHANA,Student,CURRENT,TXN000325,15/09/2024,,WITHDRAWAL,POS,Utilities,Yes,-50,Low,0,1,,9999,50k-150k,-1000,99271.46,current,BR002,Failed,6.05
+CUST01392,18-25,Female,Rwanda,SME,Fixed Deposit,TXN000554,18/12/2024,2625.27,Withdrawal,atm,Misc,1,999,High,1,No,FALSE,51,<50k,,580252.19,Default,br007,Reversed,7.3
+CUST01034,,Female,S. Africa,,Savings,TXN000593,01/03/2024,905.93,Payment,Mobile App,Fuel,,999,low,,No,No,,50k-150k,-1000,741733.44,current,BR-006,Pending,
+CUST01127,65+,,KENYA,Affluent,Wallet,TXN000018,27/04/2024,572.43,deposit,USSD,Healthcare,,-50,low,-1,N,,9999,,,664455.34,Late,BR003,Reversed,
+CUST01085,56-65,M,EGYPT,Corporate,Savings,TXN000247,16/09/2024,13950.65,Payment,Branch,Restaurants,0,-50,Low,1,Y,Yes,9999,,201013.68,499657.83,Default,BR005,Pending,7.67
+CUST01079,,F,Tanzania,,Current,TXN000175,12/07/2024,1143.92,deposit,Internet Banking,Retail,0,646,Low,1,0,No,9999,500k-1M,395733.12,390274.31,LATE,BR004,completed,-2
+CUST01195,56-65,,S. Africa,Student,Savings,TXN000166,06/12/2024,6438.5,Deposit,Branch,Retail,0,784,low,2,N,No,9999,,-1000,252581.8,Current,BR004,Pending,-2
+CUST01083,,,TZ,Retail,Current,TXN000003,13/06/2024,940.39,Transfer,Mobile App,Fuel,0,-50,HIGH,3,0,No,,,-1000,550529.57,Default,BR002,Reversed,-2
+CUST01116,26-35,F,Nigeria,,Fixed Deposit,TXN000107,19/02/2024,,Transfer,Mobile App,Healthcare,,1500,Med,2,No,No,59,<50k,-1000,592532.66,Late,BR002,completed,-2
+CUST01353,36-45,Male,EGYPT,Student,CURRENT,TXN000036,20/01/2024,7465.17,deposit,atm,Retail,1,1500,Medium,0,N,,9999,>1M,-1000,236184.6,Default,BR002,Failed,600
+CUST01281,46-55,Male,Nigria,Retail,Current,TXN000508,06/09/2024,4157.54,deposit,Branch,Utilities,0,-50,High,,Y,TRUE,9999,150k-500k,-1000,44687.35,Default,BR001,Reversed,
+CUST01344,65+,M,Tanzania,Retail,Current,TXN000425,20/05/2024,9446.15,Withdrawal,mobile app,Telecom,0,-50,Med,,N,FALSE,9999,,334820.59,154351.95,Current,BR003,Pending,
+CUST01073,56-65,M,Rwanda,Affluent,Fixed Deposit,TXN000060,04/04/2024,539.75,Deposit,Internet Banking,Education,No,999,HIGH,3,Yes,,9999,500k-1M,,297610.7,current,BR001,Pending,
+CUST01020,,F,S. Africa,Affluent,savings,TXN000475,07/10/2024,4404.72,Payment,Internet Banking,Healthcare,0,,HIGH,0,No,FALSE,41,500k-1M,,194944.16,LATE,BR005,Reversed,600
+CUST01412,36-45,male,Rwanda,Student,savings,TXN000450,04/08/2024,1160.06,WITHDRAWAL,Internet Banking,Education,0,1500,Low,1,1,FALSE,,150k-500k,,211359.92,current,BR004,Reversed,-2
+CUST01316,56-65,female,GHANA,Retail,Savings,TXN000489,19/08/2024,1850.51,deposit,mobile app,Retail,0,,Med,2,Yes,,,>1M,384347.72,685602.41,N/A,BR004,Failed,6.12
+CUST01239,56-65,F,Kenya,,Fixed Deposit,TXN000038,16/04/2024,5612.16,Deposit,POS,,,-50,Medium,0,,FALSE,,,,294868.53,Current,BR-006,Reversed,-2
+CUST01280,65+,female,KENYA,,CURRENT,TXN000119,10/11/2024,3605.91,Transfer,Branch,Utilities,No,794,Low,,No,,,500k-1M,78551.89,264875.66,current,BR005,Reversed,600
+CUST01229,36-45,M,Ghana,Affluent,Fixed Deposit,TXN000332,24/01/2024,768.59,deposit,mobile app,Fuel,,-50,High,0,N,FALSE,24,,186641.85,270366.88,current,br007,Completed,5.46
+CUST01303,65+,M,EGYPT,Affluent,Wallet,TXN000512,16/03/2024,2492.84,Payment,USSD,Misc,0,-50,Medium,0,1,Yes,19,<50k,108211.78,688286.41,current,BR001,Completed,600
+CUST01402,26-35,F,kenya,Retail,Savings,TXN000118,09/06/2024,5.13,Deposit,Mobile App,Restaurants,No,,Medium,2,N,TRUE,,500k-1M,,630984,Late,BR-006,Completed,
+CUST01365,36-45,M,Tanzania,Corporate,Current,TXN000328,04/09/2024,2176.75,Deposit,Mobile App,Travel,0,1500,Medium,3,No,Yes,17,500k-1M,-1000,438695.03,Current,br007,Completed,0.62
+CUST01283,46-55,male,Nigria,,Savings,TXN000585,17/01/2024,6060.94,Transfer,Mobile App,Retail,0,1500,High,2,Yes,No,9999,>1M,-1000,99309.7,Late,BR001,Reversed,-2
+CUST01060,65+,F,Nigria,SME,Wallet,TXN000158,16/09/2024,4251.58,Withdrawal,POS,Healthcare,,1500,HIGH,0,No,FALSE,9999,500k-1M,-1000,338849.24,Default,BR003,completed,-2
+CUST01176,56-65,F,Uganda,Affluent,savings,TXN000080,08/07/2024,4766.97,Transfer,Branch,Restaurants,0,1500,Med,-1,1,FALSE,15,<50k,-1000,115481.4,N/A,br007,Pending,3.76
+CUST01085,,male,Kenya,Student,Savings,TXN000022,26/10/2024,13377.84,Deposit,POS,Healthcare,No,999,low,2,0,No,9999,,-1000,194279.5,Default,BR001,completed,-2
+CUST01232,26-35,Female,TZ,Retail,savings,TXN000021,16/03/2024,5729.01,deposit,Mobile App,,1,999,Medium,2,Yes,,,500k-1M,112111.08,624986.44,LATE,BR003,Pending,5.25
+CUST01160,36-45,female,TZ,,Savings,TXN000447,16/06/2024,8022.05,Payment,ATM,Healthcare,Yes,-50,Medium,0,N,FALSE,9999,,,179860.14,Late,BR003,Completed,
+CUST01269,,M,Uganda,,Current,TXN000070,11/08/2024,12557.07,Payment,POS,Healthcare,,999,Med,,,TRUE,,150k-500k,96132.08,223205.12,Default,BR001,completed,-2
+CUST01195,36-45,male,Nigria,Student,Wallet,TXN000014,11/09/2024,1006.35,Deposit,Mobile App,Retail,0,999,Medium,-1,,No,14,>1M,,262609.56,Default,BR001,Completed,-2
+CUST01273,,F,Nigria,SME,Fixed Deposit,TXN000171,08/11/2024,11746.65,Airtime,USSD,Retail,0,1500,Med,3,No,Yes,,,-1000,349685.09,current,br007,Pending,600
+CUST01083,36-45,,Ghana,Student,Wallet,TXN000451,20/05/2024,5715.77,Withdrawal,Internet Banking,Restaurants,,1500,Medium,,0,,52,50k-150k,96797.75,610282.12,N/A,br007,Failed,-2
+CUST01332,36-45,Male,Ghana,,Wallet,TXN000355,22/05/2024,14256.84,Deposit,ATM,Fuel,No,999,Med,2,,,9999,>1M,,409983.4,Current,BR002,Completed,-2
+CUST01309,36-45,Female,Uganda,,Wallet,TXN000043,03/02/2024,6302,Payment,Mobile App,Restaurants,Yes,1500,Medium,0,N,TRUE,,>1M,-1000,76068.67,Current,BR005,completed,-2
+CUST01396,65+,M,EGYPT,,Savings,TXN000061,10/05/2024,966.1,WITHDRAWAL,Internet Banking,Misc,1,,Medium,0,,Yes,28,150k-500k,,797809.92,current,BR002,Completed,-2
+CUST01273,36-45,F,Uganda,Retail,Current,TXN000394,01/10/2024,-3216.28,Withdrawal,mobile app,Healthcare,No,,HIGH,,N,,8,<50k,-1000,786027.65,Current,br007,Failed,
+CUST01406,,Female,GHANA,Student,Savings,TXN000156,20/10/2024,734.35,Deposit,Mobile App,Utilities,1,-50,low,0,N,FALSE,8,,-1000,687673.35,Late,BR005,completed,600
+CUST01255,36-45,female,Rwanda,Retail,Savings,TXN000066,24/05/2024,8450.36,Transfer,mobile app,Restaurants,Yes,1500,Low,0,No,,22,500k-1M,,478015.02,Current,BR005,completed,600
+CUST01231,46-55,,SOUTH AFRICA,Student,savings,TXN000595,21/02/2024,7135.18,Withdrawal,USSD,Healthcare,0,847,low,2,0,FALSE,9999,50k-150k,85159.1,60142.85,current,BR005,Pending,6.69
+CUST01055,46-55,M,SOUTH AFRICA,Affluent,Wallet,TXN000092,23/10/2024,727.71,Airtime,Internet Banking,Restaurants,No,999,Low,0,Yes,Yes,16,500k-1M,-1000,446394.73,Current,BR003,Reversed,
+CUST01032,65+,F,Nigeria,Student,Fixed Deposit,TXN000148,10-Mar-24,1770.8,deposit,POS,Groceries,1,999,HIGH,1,,FALSE,,>1M,411061.19,379190.14,Late,BR001,Completed,
+CUST01103,65+,,Egypt,,Savings,TXN000515,20/02/2024,4449.74,Transfer,atm,Education,Yes,,HIGH,-1,Yes,Yes,9999,50k-150k,,447155.52,Default,BR-006,Pending,
+CUST01144,36-45,male,Egypt,Affluent,Current,TXN000365,06/01/2024,389.47,deposit,ATM,Utilities,No,,High,0,N,Yes,26,150k-500k,-1000,61050.15,N/A,BR005,completed,600
+CUST01180,65+,Female,Nigria,Affluent,Current,TXN000484,01/10/2024,5365.9,Deposit,mobile app,Fuel,,-50,Med,,0,Yes,58,<50k,49325.37,713884.86,Default,BR001,Failed,5.73
+CUST01067,,female,Rwanda,Corporate,Savings,TXN000594,10/07/2024,3159.63,Airtime,ATM,Utilities,0,685,low,0,N,Yes,9999,150k-500k,,211678.94,Default,BR001,Failed,
+CUST01273,46-55,Male,Tanzania,,Wallet,TXN000217,02/03/2024,7359.98,Withdrawal,ATM,,0,,Medium,3,Yes,FALSE,42,500k-1M,,717168.56,N/A,BR001,completed,-2
+CUST01130,18-25,female,GHANA,Corporate,Current,TXN000586,19/06/2024,5645.94,Payment,Branch,Telecom,No,-50,High,-1,,TRUE,9999,>1M,-1000,596815.21,Current,BR003,Completed,600
+CUST01080,36-45,F,GHANA,Student,Wallet,TXN000452,25/01/2024,12559.06,Payment,ATM,Travel,0,999,High,1,N,TRUE,23,,-1000,283146.86,Late,BR004,Pending,600
+CUST01242,36-45,Male,Uganda,SME,Fixed Deposit,TXN000174,26/07/2024,11008.96,Withdrawal,ATM,Groceries,1,-50,HIGH,1,N,TRUE,,,-1000,174230.6,N/A,BR-006,completed,600
+CUST01397,36-45,male,KENYA,,Savings,TXN000324,13/03/2024,8006.84,Payment,mobile app,Retail,,1500,HIGH,0,Yes,Yes,5,50k-150k,-1000,726782.76,Current,BR003,Completed,600
+CUST01341,65+,Male,Rwanda,Student,CURRENT,TXN000278,10/12/2024,8049.99,Airtime,Mobile App,Misc,0,1500,HIGH,2,Y,,9999,<50k,-1000,221900.08,Late,BR005,completed,
+CUST01172,56-65,,Rwanda,SME,Current,TXN000430,03/01/2024,1427.69,Transfer,Internet Banking,Restaurants,1,-50,low,2,N,TRUE,,500k-1M,296538.03,409763.48,Late,BR004,Completed,
+CUST01092,46-55,Female,Rwanda,Affluent,CURRENT,TXN000343,2024-13-45,6762.55,Airtime,Internet Banking,Groceries,0,,HIGH,0,Y,No,56,<50k,-1000,486257.66,N/A,BR004,Completed,0.65
+CUST01141,65+,Female,Egypt,Student,Fixed Deposit,TXN000380,06/11/2024,167.87,Transfer,atm,Retail,1,-50,Low,2,,FALSE,,150k-500k,144204.27,399141.62,Current,BR004,Completed,600
+CUST01329,56-65,female,Nigria,Corporate,savings,TXN000488,11/09/2024,1912.36,Deposit,Mobile App,Misc,0,817,Low,0,0,No,9999,500k-1M,360590.54,697069.85,current,BR005,Completed,
+CUST01350,46-55,male,GHANA,Affluent,Savings,TXN000262,15/06/2024,4380.72,deposit,Branch,Misc,Yes,,Med,2,N,FALSE,9999,,300170.37,605192.51,Late,BR004,completed,
+CUST01159,,Male,Rwanda,Retail,CURRENT,TXN000173,08/08/2024,2492.13,deposit,ATM,Fuel,0,638,low,0,Y,FALSE,9999,,235073.39,716559.18,Current,BR005,Failed,600
+CUST01395,56-65,F,Egypt,SME,Wallet,TXN000587,25/08/2024,12255.06,Payment,ATM,Misc,0,,low,1,,No,,50k-150k,-1000,768502.43,LATE,BR002,Pending,0.53
+CUST01381,46-55,,South Africa,Student,CURRENT,TXN000584,10/07/2024,12212.32,Airtime,USSD,Retail,,999,Med,0,,FALSE,9999,<50k,-1000,87018.95,Current,BR002,Pending,600
+CUST01373,46-55,Male,KENYA,SME,Fixed Deposit,TXN000479,12/04/2024,373.31,deposit,Mobile App,Restaurants,No,1500,low,,N,No,,<50k,,284125.56,current,BR003,Completed,-2
+CUST01354,26-35,female,Rwanda,SME,savings,TXN000086,22/07/2024,NGN 190.72,Airtime,POS,Travel,0,-50,Med,0,,TRUE,1,50k-150k,-1000,656721.91,LATE,BR-006,Completed,-2
+CUST01118,,male,KENYA,Corporate,savings,TXN000153,13/03/2024,-1844.56,deposit,mobile app,Restaurants,,-50,HIGH,2,N,FALSE,56,,-1000,259256.89,Current,BR005,Pending,-2
+CUST01287,26-35,male,S. Africa,Student,savings,TXN000588,18/01/2024,1576.78,WITHDRAWAL,Internet Banking,Travel,0,,HIGH,,1,Yes,,150k-500k,,768016.43,current,BR-006,Failed,7.11
+CUST01207,26-35,male,KENYA,,savings,TXN000559,01/07/2024,691.74,deposit,USSD,,,553,Med,0,No,,44,50k-150k,315419.44,376252.54,N/A,BR005,Failed,
+CUST01282,36-45,female,Rwanda,Retail,CURRENT,TXN000521,15/03/2024,3804740,Transfer,Internet Banking,Groceries,0,-50,High,3,N,Yes,32,>1M,-1000,452039.97,Default,BR004,Completed,6.43
+CUST01340,65+,male,TZ,Corporate,Wallet,TXN000231,10/22/2024,640.41,Withdrawal,atm,Restaurants,0,-50,Med,0,Yes,FALSE,,<50k,,742249.03,LATE,BR004,Completed,-2
+CUST01199,36-45,male,nigeria,Student,Wallet,TXN000387,21/03/2024,138.71,Withdrawal,POS,Misc,,755,Med,0,N,FALSE,17,>1M,,400510.7,Default,BR004,Failed,
+CUST01306,36-45,Male,Tanzania,Retail,Savings,TXN000470,08/08/2024,8141.28,Airtime,atm,Fuel,0,1500,HIGH,,Yes,TRUE,9999,500k-1M,,512212.34,LATE,BR003,Completed,-2
+CUST01200,56-65,Male,Rwanda,,Wallet,TXN000213,10/12/2024,5301.75,Transfer,Branch,Groceries,,-50,Low,,0,No,9999,>1M,5288.99,665351.6,Current,BR001,completed,0.19
+CUST01269,46-55,,GHANA,,CURRENT,TXN000260,09/11/2024,10123.63,Airtime,ATM,Restaurants,,810,Low,0,Y,Yes,,,295169.25,669581.77,current,BR004,Pending,1.31
+CUST01096,46-55,M,Rwanda,SME,Current,TXN000299,03/09/2024,1595,Payment,ATM,Restaurants,0,611,HIGH,0,0,,11,<50k,-1000,390890.66,Late,BR003,Reversed,1.57
+CUST01340,18-25,female,TZ,Retail,CURRENT,TXN000556,18/05/2024,2148.22,WITHDRAWAL,mobile app,Retail,1,1500,Low,0,,Yes,9999,<50k,280706.14,474308.4,Current,BR003,Failed,-2
+CUST01133,,M,TZ,Corporate,Fixed Deposit,TXN000167,25/08/2024,3287.11,deposit,atm,Utilities,0,999,low,2,Yes,TRUE,9999,>1M,481558.28,461483.01,Default,BR004,Failed,
+CUST01170,,female,Tanzania,Retail,CURRENT,TXN000030,08/14/2024,7800.2,Deposit,Branch,Healthcare,No,999,High,-1,,,,>1M,,258619.03,N/A,BR-006,Reversed,600
+CUST01336,,F,South Africa,,CURRENT,TXN000214,09/06/2024,4925.03,Withdrawal,Mobile App,Retail,0,1500,Low,0,0,No,,500k-1M,233477.79,511024.41,N/A,BR003,Completed,-2
+CUST01032,46-55,Male,KENYA,Retail,Savings,TXN000220,23/02/2024,609.05,deposit,USSD,Travel,0,-50,Med,2,No,,2,500k-1M,-1000,489953.2,LATE,BR002,Failed,6.24
+CUST01325,18-25,Male,S. Africa,Corporate,CURRENT,TXN000467,07/05/2024,3113.27,deposit,Mobile App,Groceries,0,,low,0,N,TRUE,9999,50k-150k,,374403.32,Late,BR004,Failed,-2
+CUST01337,46-55,Female,Ghana,Corporate,Savings,TXN000431,13/11/2024,8580.78,deposit,Branch,Education,0,,Med,-1,No,FALSE,9999,500k-1M,-1000,444278.58,N/A,BR-006,Failed,6.23
+CUST01239,26-35,F,Nigeria,SME,Fixed Deposit,TXN000574,12/06/2024,,deposit,ATM,Restaurants,No,,High,1,0,TRUE,,50k-150k,,424028.18,current,BR004,Completed,3.3
+CUST01168,46-55,Male,Uganda,,savings,TXN000439,16-Nov-24,,Airtime,POS,Utilities,,999,Medium,-1,N,No,9999,,-1000,558180.29,current,BR003,Pending,-2
+CUST01243,,Male,Rwanda,Affluent,Fixed Deposit,TXN000170,05/05/2024,3181.12,Transfer,ATM,Groceries,Yes,-50,HIGH,,0,,9999,50k-150k,-1000,247729.06,Default,BR003,Reversed,
+CUST01346,56-65,male,Uganda,Corporate,Current,TXN000071,19/12/2024,6823.3,Withdrawal,Branch,Groceries,0,999,Med,1,0,Yes,,>1M,-1000,383263.41,Late,BR-006,Failed,-2
+CUST01362,18-25,female,Ghana,,CURRENT,TXN000084,04/03/2024,987.29,Deposit,Internet Banking,Fuel,Yes,-50,Medium,,N,Yes,9999,>1M,275821.78,13380.92,current,BR003,Pending,-2
+CUST01199,18-25,M,Rwanda,Student,Savings,TXN000206,27/09/2024,920.98,Transfer,Mobile App,Retail,0,-50,Low,2,0,TRUE,9999,50k-150k,-1000,323357.93,N/A,BR-006,completed,-2
+CUST01272,56-65,F,Uganda,Student,Fixed Deposit,TXN000179,20/09/2024,858.32,Payment,POS,Restaurants,No,-50,HIGH,,Yes,,9999,150k-500k,-1000,341659.99,Default,BR004,Reversed,
+CUST01120,18-25,Male,Rwanda,Affluent,savings,TXN000393,14/06/2024,6552.63,Payment,USSD,Fuel,1,999,Low,2,1,,59,<50k,,757280.54,Current,br007,Failed,2.24
+CUST01132,,F,SOUTH AFRICA,Corporate,Savings,TXN000286,16/08/2024,852.04,Transfer,ATM,Fuel,0,-50,Low,,1,FALSE,,150k-500k,-1000,41490.24,N/A,BR005,Reversed,600
+CUST01153,26-35,F,Kenya,Affluent,Wallet,TXN000544,14/07/2024,709.08,WITHDRAWAL,Branch,Retail,0,999,Medium,2,N,FALSE,,>1M,236587.07,267028.68,Late,BR003,Failed,-2
+CUST01008,,,kenya,SME,Current,TXN000264,20/12/2024,4333.85,Transfer,Mobile App,Travel,0,1500,HIGH,0,N,TRUE,9999,<50k,-1000,359958.32,Current,BR004,Completed,-2
+CUST01070,26-35,Female,Rwanda,Affluent,CURRENT,TXN000433,15/02/2024,181.03,WITHDRAWAL,Mobile App,Restaurants,No,999,Med,,No,FALSE,,,-1000,657020.01,Current,BR-006,Reversed,600
+CUST01225,,female,Rwanda,Affluent,savings,TXN000121,19/08/2024,1025.99,Withdrawal,atm,Retail,1,,Low,0,0,TRUE,9999,500k-1M,-1000,182010.21,LATE,BR001,completed,600
+CUST01099,56-65,Male,TZ,Retail,Savings,TXN000067,26/06/2024,305.5,Payment,atm,Telecom,1,-50,HIGH,0,Yes,FALSE,,>1M,,603972.14,Late,BR003,completed,600
+CUST01124,56-65,male,GHANA,SME,CURRENT,TXN000185,13/01/2024,55.31,Airtime,ATM,Retail,Yes,999,Medium,2,Yes,TRUE,9999,<50k,269002.73,437139.37,Default,BR002,completed,600
+CUST01201,18-25,female,RSA,,Savings,TXN000140,27/07/2024,6961.7,Airtime,atm,Healthcare,No,646,Medium,0,0,,,,-1000,764952.26,current,BR002,Failed,600
+CUST01202,65+,Female,Rwanda,,Wallet,TXN000004,13/07/2024,1230.89,Airtime,atm,Healthcare,No,-50,High,3,N,TRUE,14,>1M,254763.15,604625.73,Current,BR-006,Completed,
+CUST01134,46-55,Male,Rwanda,Affluent,Fixed Deposit,TXN000245,2024-13-45,3838.25,Deposit,Branch,Fuel,0,999,Medium,0,1,Yes,,,-1000,467173.58,Default,BR005,Completed,-2
+CUST01142,56-65,female,EGYPT,Corporate,savings,TXN000388,03/07/2024,282.59,Deposit,ATM,Telecom,Yes,1500,Medium,3,0,No,9999,<50k,-1000,420347.13,LATE,BR001,Reversed,-2
+CUST01163,65+,Male,GHANA,Affluent,savings,TXN000068,28/12/2024,18674.88,deposit,ATM,,,-50,low,3,,,,150k-500k,,379914.08,LATE,br007,completed,-2
+CUST01107,46-55,M,Uganda,Retail,Savings,TXN000428,06/11/2024,4153.92,Payment,Internet Banking,Education,,,HIGH,,1,,9999,150k-500k,397147.51,410617.96,Default,BR005,Reversed,
+CUST01112,46-55,Female,Kenya,SME,Current,TXN000376,23/05/2024,9017.41,Airtime,USSD,Groceries,1,544,Low,1,No,,9999,50k-150k,,81043.42,current,BR-006,completed,-2
+CUST01203,36-45,F,Uganda,Affluent,Fixed Deposit,TXN000310,18/07/2024,2544.9,Airtime,atm,Utilities,Yes,,High,0,,FALSE,27,50k-150k,,476146.69,LATE,BR004,Failed,
+CUST01272,56-65,F,Uganda,Student,Fixed Deposit,TXN000179,20/09/2024,858.32,Payment,POS,Restaurants,No,-50,HIGH,,Yes,,9999,150k-500k,-1000,341659.99,Default,BR004,Reversed,
+CUST01037,18-25,Male,Rwanda,,Savings,TXN000288,28/05/2024,3927.04,Payment,mobile app,Utilities,0,387,HIGH,2,Y,Yes,50,500k-1M,,43831.06,Late,br007,completed,600
+CUST01118,,F,Ghana,SME,Fixed Deposit,TXN000243,17/08/2024,-419.68,Transfer,POS,Healthcare,0,1500,HIGH,0,N,,,<50k,-1000,498586.09,Current,BR004,Completed,600
+CUST01320,26-35,male,Tanzania,SME,savings,TXN000491,22/12/2024,11381.06,WITHDRAWAL,POS,Education,Yes,1500,HIGH,2,N,FALSE,,500k-1M,,106491.74,Default,BR-006,Pending,
+CUST01363,56-65,Male,GHANA,SME,Fixed Deposit,TXN000303,13/12/2024,4438.23,Withdrawal,Mobile App,Misc,1,772,Low,3,0,No,,,,673250.03,Default,BR002,Reversed,1.45
+CUST01238,65+,M,Egypt,Retail,CURRENT,TXN000477,24/05/2024,2466.51,Deposit,atm,Travel,0,746,Med,0,1,FALSE,9999,50k-150k,,381301.16,N/A,BR002,Reversed,5.68
+CUST01327,26-35,male,Ghana,Student,Fixed Deposit,TXN000063,20/05/2024,2266.89,Airtime,Mobile App,Healthcare,0,356,Med,1,No,No,9999,50k-150k,-1000,715940.73,current,BR005,Failed,-2
+CUST01043,18-25,F,EGYPT,SME,Savings,TXN000271,03/09/2024,5023.87,Deposit,POS,Restaurants,No,,low,-1,No,No,,50k-150k,,718452.21,N/A,BR001,Reversed,-2
+CUST01349,18-25,female,TZ,Retail,savings,TXN000316,25/12/2024,6789.74,WITHDRAWAL,Branch,Restaurants,0,1500,low,1,,TRUE,51,>1M,-1000,321446.69,LATE,BR-006,Reversed,
+CUST01060,36-45,,Nigria,Retail,Fixed Deposit,TXN000197,11/09/2024,3928.23,WITHDRAWAL,ATM,Utilities,No,-50,Med,2,Yes,TRUE,9999,150k-500k,403021.76,9037.81,Default,BR004,completed,-2
+CUST01155,26-35,,Rwanda,Affluent,Fixed Deposit,TXN000234,27/01/2024,273.61,WITHDRAWAL,USSD,,0,684,High,2,0,TRUE,26,500k-1M,-1000,454333.06,current,BR-006,Reversed,
+CUST01243,18-25,Male,Ghana,Affluent,Wallet,TXN000514,06/07/2024,477.78,Deposit,ATM,Misc,0,-50,Low,1,Yes,,30,150k-500k,365717.01,172380.46,LATE,BR003,Reversed,600
+CUST01394,26-35,Male,TZ,,CURRENT,TXN000182,2024-13-45,8474.14,Airtime,Mobile App,Fuel,0,,low,,,FALSE,,150k-500k,,431943.78,N/A,BR002,Failed,
+CUST01222,26-35,Male,Uganda,Corporate,CURRENT,TXN000398,08-Feb-24,6588.49,WITHDRAWAL,USSD,Restaurants,Yes,-50,HIGH,2,1,,9999,500k-1M,,373865.98,Current,BR005,Pending,
+CUST01039,26-35,,Egypt,Affluent,Wallet,TXN000019,10/23/2024,1268.25,Deposit,mobile app,Education,0,,Low,0,N,No,45,150k-500k,,264705.11,Default,br007,Reversed,3.78
+CUST01013,65+,female,Egypt,SME,Wallet,TXN000045,06/06/2024,795.83,Transfer,USSD,Restaurants,,999,HIGH,0,No,No,9999,>1M,200392.17,592775.25,Current,BR001,Failed,7.78
+CUST01419,56-65,female,Kenya,Student,savings,TXN000406,10/07/2024,9038.07,Transfer,mobile app,Restaurants,No,1500,Medium,1,N,No,9999,50k-150k,294040.44,185810.84,Current,br007,Failed,4
+CUST01416,36-45,female,Nigeria,SME,Wallet,TXN000395,28/06/2024,233.29,Withdrawal,atm,Retail,,589,High,1,1,No,18,>1M,,526066.26,Default,br007,Failed,5.29
+CUST01228,46-55,Male,S. Africa,Corporate,CURRENT,TXN000146,03/09/2024,12766.68,Deposit,Internet Banking,Healthcare,1,1500,HIGH,2,Y,,,<50k,-1000,657687.25,LATE,BR001,Failed,600
+CUST01078,18-25,M,GHANA,,Savings,TXN000510,17/06/2024,1560.04,WITHDRAWAL,Internet Banking,Travel,0,705,Medium,2,Yes,FALSE,35,50k-150k,-1000,28804.47,current,BR001,completed,600
+CUST01306,65+,Female,TZ,Affluent,Wallet,TXN000411,08/11/2024,1400.6,Deposit,USSD,Retail,Yes,1500,HIGH,1,No,FALSE,7,50k-150k,,528490.29,N/A,BR001,completed,600
+CUST01371,36-45,male,Tanzania,Retail,Fixed Deposit,TXN000330,28/06/2024,4535.49,Deposit,Mobile App,Utilities,Yes,,Med,1,,FALSE,,50k-150k,,416475.73,Current,BR002,completed,
+CUST01089,,Female,Rwanda,SME,Wallet,TXN000443,01/02/2024,1558.71,deposit,ATM,Misc,Yes,,Med,2,No,,28,500k-1M,,400171.95,current,BR004,Reversed,-2
+CUST01232,,male,NIGERIA,Affluent,Fixed Deposit,TXN000357,03/03/2024,11867.31,Withdrawal,Mobile App,Retail,0,999,low,3,,FALSE,,<50k,,170736.66,Default,br007,Reversed,1.77
+CUST01092,18-25,Male,KENYA,Corporate,savings,TXN000530,14/05/2024,5710.54,Withdrawal,Branch,Fuel,0,342,HIGH,0,1,,17,>1M,-1000,549379.42,current,br007,Pending,1.72
+CUST01142,18-25,male,EGYPT,,Fixed Deposit,TXN000528,20/04/2024,4430.83,WITHDRAWAL,POS,Telecom,0,999,Med,,0,TRUE,9999,500k-1M,276451.6,638424.51,Default,BR002,Reversed,
+CUST01235,56-65,female,Tanzania,SME,Fixed Deposit,TXN000048,27/11/2024,2295.86,Withdrawal,Branch,Utilities,No,-50,Medium,3,Yes,FALSE,,150k-500k,372902.41,266454.9,Late,BR002,completed,1.43
+CUST01238,18-25,female,Rwanda,Corporate,Fixed Deposit,TXN000539,16/09/2024,8561.3,Deposit,atm,Utilities,0,725,High,0,0,Yes,,150k-500k,,727513.63,Late,BR003,completed,600
+CUST01109,65+,M,Uganda,Retail,Savings,TXN000009,28/09/2024,,Airtime,Internet Banking,Groceries,Yes,999,HIGH,1,N,,9999,<50k,243335.71,237366.26,Late,BR001,completed,7.75
+CUST01172,46-55,female,Nigria,SME,CURRENT,TXN000024,16/12/2024,7613.97,Payment,ATM,Utilities,0,999,High,1,Y,,,50k-150k,-1000,758450.06,N/A,BR-006,Failed,600
+CUST01038,,female,GHANA,Corporate,Current,TXN000163,03/02/2024,1506.77,deposit,atm,,0,,Low,2,0,No,9999,>1M,,165422.91,Current,br007,Reversed,
+CUST01152,65+,female,Nigeria,SME,CURRENT,TXN000436,15/10/2024,,Deposit,Mobile App,Restaurants,0,,High,0,1,Yes,9999,<50k,,344880.44,Late,BR005,Completed,600
+CUST01137,56-65,female,Ghana,Retail,Wallet,TXN000536,16/01/2024,6039.44,Withdrawal,Internet Banking,Fuel,0,,HIGH,3,No,No,50,150k-500k,162738.93,613079.7,current,br007,Pending,4.15
+CUST01124,46-55,M,Ghana,,CURRENT,TXN000219,22/02/2024,-756.17,Airtime,Internet Banking,Restaurants,Yes,614,Medium,3,No,,4,<50k,-1000,639340.18,current,BR002,Pending,
+CUST01171,26-35,Female,EGYPT,Student,Wallet,TXN000409,04/22/2024,3983.76,Withdrawal,USSD,Education,0,999,Medium,2,Yes,,20,500k-1M,-1000,670108.03,Late,BR-006,Reversed,5.05
+CUST01292,65+,,Ghana,Retail,Savings,TXN000122,18/07/2024,11923.75,Transfer,USSD,Healthcare,0,,low,0,Yes,FALSE,9999,<50k,-1000,118302.6,LATE,BR005,completed,-2
+CUST01314,65+,Male,Uganda,Student,CURRENT,TXN000050,23/04/2024,3473.14,Payment,atm,Healthcare,0,1500,HIGH,1,1,FALSE,32,>1M,,82801.5,Late,BR003,Pending,-2
+CUST01182,,Male,Ghana,Student,Fixed Deposit,TXN000269,12/28/2024,7039.85,Airtime,Mobile App,Groceries,,332,low,2,Yes,,14,500k-1M,,206257.71,Current,BR001,completed,-2
+CUST01102,65+,female,Ghana,SME,Current,TXN000487,19/01/2024,2531.65,Deposit,Internet Banking,Restaurants,No,534,High,0,Yes,Yes,,50k-150k,,590677.07,Default,BR004,Failed,3.59
+CUST01411,56-65,M,NIGERIA,Affluent,CURRENT,TXN000434,12/09/2024,1536.92,Deposit,Internet Banking,Travel,0,1500,HIGH,2,0,FALSE,27,500k-1M,,593652.01,LATE,BR001,Failed,600
+CUST01374,65+,Male,TZ,Student,Savings,TXN000518,23/02/2024,2961.97,Transfer,Branch,Travel,,-50,High,,N,Yes,9999,50k-150k,321951.13,667479.42,current,BR-006,Completed,
+CUST01196,,Male,Rwanda,Student,CURRENT,TXN000244,22/09/2024,7665.87,Airtime,atm,Education,0,336,HIGH,3,0,TRUE,9999,50k-150k,,107590.59,current,BR001,Reversed,600
+CUST01132,65+,M,Egypt,Retail,Savings,TXN000215,24/10/2024,2323.38,Transfer,atm,Groceries,No,-50,low,0,0,FALSE,6,50k-150k,,174709.2,LATE,BR-006,Completed,600
+CUST01365,36-45,male,TZ,SME,Current,TXN000419,15/09/2024,2555.47,Transfer,Mobile App,Groceries,0,,HIGH,3,0,FALSE,,500k-1M,208151.47,376394.75,current,BR002,Completed,7.95
+CUST01121,46-55,M,EGYPT,Affluent,Savings,TXN000110,15/04/2024,7612.92,Transfer,atm,Retail,,999,Low,2,Y,No,4,<50k,-1000,87178.27,Late,br007,Pending,600
+CUST01127,,Female,EGYPT,SME,savings,TXN000454,18/04/2024,-244.6,Deposit,atm,Fuel,,999,High,2,Y,Yes,30,>1M,440424.87,259636.41,current,br007,Pending,600
+CUST01292,26-35,M,NIGERIA,Affluent,Fixed Deposit,TXN000318,22/05/2024,"NGN 2,756.02",Payment,Mobile App,Misc,Yes,,Medium,0,N,,15,>1M,-1000,559927.2,LATE,BR-006,Reversed,0.93
+CUST01309,65+,female,TZ,SME,Fixed Deposit,TXN000188,24/09/2024,3125.59,Deposit,Internet Banking,Restaurants,0,-50,Medium,-1,No,TRUE,9999,,449321.58,344051.44,Current,br007,Pending,
+CUST01417,36-45,F,South Africa,Corporate,Current,TXN000519,19/10/2024,65.41,Payment,ATM,Misc,1,,low,0,Y,FALSE,60,<50k,,529268.04,N/A,BR003,Pending,-2
+CUST01186,65+,Male,Uganda,SME,Savings,TXN000374,03/09/2024,8095.54,Deposit,atm,Misc,1,,HIGH,1,N,No,,500k-1M,-1000,518706.37,Default,BR003,Completed,1.26
+CUST01360,56-65,male,NIGERIA,Student,Current,TXN000111,26/02/2024,7229.72,WITHDRAWAL,Internet Banking,Utilities,,,Low,2,1,Yes,,<50k,130083.4,24865.67,Late,BR002,Failed,600
+CUST01191,18-25,M,South Africa,SME,Current,TXN000055,20/12/2024,1534920,Airtime,mobile app,Utilities,0,,High,0,Y,FALSE,44,50k-150k,,358881.18,Default,BR001,Completed,0.14
+CUST01215,46-55,male,Tanzania,Affluent,Savings,TXN000104,20/09/2024,5754.16,Withdrawal,USSD,Utilities,1,374,High,0,Y,No,2,<50k,,405288.48,current,BR002,Failed,600
+CUST01175,26-35,Male,KENYA,,CURRENT,TXN000509,21/01/2024,-2047.04,WITHDRAWAL,Branch,Education,0,1500,Low,3,,Yes,52,<50k,224249.07,610211.26,Late,br007,Failed,
+CUST01367,18-25,F,Rwanda,,CURRENT,TXN000424,28/02/2024,2695.74,Airtime,USSD,Fuel,,406,Med,0,1,No,9999,>1M,88453.84,66259.7,LATE,BR001,Pending,6.69
+CUST01085,,,TZ,Corporate,CURRENT,TXN000168,14/08/2024,3990.8,Withdrawal,Internet Banking,Groceries,0,373,Medium,1,No,TRUE,9999,,,484307.98,Late,BR-006,Pending,600
+CUST01122,26-35,male,Uganda,,Savings,TXN000056,03/06/2024,259.46,Airtime,ATM,Travel,0,-50,low,,1,,9999,<50k,,1251.47,LATE,BR004,Pending,600
+CUST01028,65+,F,TZ,Affluent,Fixed Deposit,TXN000233,14/12/2024,640.42,deposit,mobile app,Telecom,,1500,HIGH,0,Y,TRUE,,>1M,-1000,70078.9,Current,BR002,Failed,600
+CUST01269,46-55,F,TZ,,Current,TXN000301,13/02/2024,2466.26,deposit,ATM,Fuel,Yes,999,Medium,1,0,TRUE,9999,150k-500k,411714.8,332042.21,LATE,BR005,Pending,600
+CUST01219,26-35,F,GHANA,Affluent,CURRENT,TXN000334,06/01/2024,460.27,deposit,Branch,Education,0,,Med,1,0,FALSE,,150k-500k,-1000,158771.69,Current,BR004,Reversed,1.6
+CUST01013,56-65,F,Rwanda,Student,Wallet,TXN000091,14/12/2024,2308.25,Airtime,ATM,Restaurants,Yes,1500,Med,0,0,TRUE,,>1M,-1000,338502.36,current,BR-006,Completed,600
+CUST01040,18-25,Female,Egypt,Student,Savings,TXN000315,25/09/2024,1897.52,Transfer,atm,Education,0,650,High,2,N,Yes,0,>1M,133040.38,532257.82,N/A,BR003,Pending,6.33
+CUST01407,18-25,Male,EGYPT,Retail,Wallet,TXN000590,03/02/2024,-3934.44,deposit,Branch,,Yes,,High,-1,No,Yes,9999,<50k,,480313.95,Current,BR001,Reversed,600
+CUST01019,18-25,F,Uganda,,Wallet,TXN000216,12/09/2024,657.65,Transfer,USSD,Travel,0,-50,Low,3,0,FALSE,,,-1000,624749.63,LATE,BR001,Pending,
+CUST01135,36-45,Female,Egypt,Student,savings,TXN000373,25/06/2024,1741.7,Transfer,atm,Misc,1,,Medium,0,N,Yes,13,>1M,,654809.16,Current,BR002,Failed,1.58
+CUST01371,26-35,male,S. Africa,,Wallet,TXN000089,15/04/2024,4624.75,Deposit,Internet Banking,Retail,0,999,Low,2,No,Yes,,500k-1M,,387385.05,Default,br007,completed,-2
+CUST01358,56-65,male,EGYPT,,Current,TXN000039,11/04/2024,-496.25,WITHDRAWAL,atm,,Yes,999,low,0,Yes,No,9999,150k-500k,,296809.21,Current,BR-006,Pending,600
+CUST01057,36-45,female,Ghana,Corporate,Current,TXN000581,02/10/2024,1120.9,Airtime,Mobile App,Utilities,0,1500,HIGH,,Y,,9999,,453968.42,705825.02,current,BR003,Completed,600
+CUST01101,36-45,F,Tanzania,,savings,TXN000242,17-Aug-24,3615.09,Transfer,Internet Banking,Education,No,,Low,,N,TRUE,9999,<50k,-1000,218378.23,Default,BR004,Reversed,600
+CUST01182,26-35,M,SOUTH AFRICA,Corporate,Current,TXN000342,05/07/2024,777.91,Payment,Branch,Travel,1,-50,High,,0,FALSE,9999,50k-150k,-1000,507444.43,N/A,BR001,Reversed,600
+CUST01087,56-65,Female,EGYPT,Affluent,Wallet,TXN000204,27/04/2024,3709.81,deposit,mobile app,Travel,1,1500,HIGH,1,1,Yes,,150k-500k,,472428.77,current,BR-006,Failed,
+CUST01078,,M,Kenya,Student,Savings,TXN000049,10/02/2024,12087.66,Payment,atm,Groceries,Yes,-50,Low,,1,,9999,150k-500k,,54629.01,Default,BR001,Completed,-2
+CUST01029,36-45,F,NIGERIA,Student,Savings,TXN000573,17/05/2024,17828,Airtime,ATM,Restaurants,0,-50,low,-1,Y,TRUE,10,500k-1M,272887.62,480278.63,Current,BR005,Reversed,600
+CUST01129,65+,Male,SOUTH AFRICA,Corporate,savings,TXN000496,01/10/2024,16077.63,deposit,ATM,Retail,,1500,low,0,Yes,No,,50k-150k,,270014.26,N/A,BR004,Reversed,600
+CUST01162,26-35,male,Rwanda,SME,Current,TXN000493,12/02/2024,8100.73,Airtime,POS,,0,999,low,,Yes,Yes,5,500k-1M,4334.34,265206.91,Default,BR-006,Failed,-2
+CUST01186,26-35,male,KENYA,Student,Current,TXN000116,23/12/2024,4876.86,Transfer,Internet Banking,Telecom,0,999,Med,1,No,No,,<50k,,519344.21,LATE,BR005,Reversed,-2
+CUST01418,36-45,F,NIGERIA,Affluent,Wallet,TXN000077,22/11/2024,-3453.95,WITHDRAWAL,Internet Banking,Misc,0,652,High,0,N,Yes,,<50k,89990.66,612662.15,Late,BR005,Reversed,600
+CUST01088,,M,Uganda,Affluent,Savings,TXN000525,28/01/2024,631.82,Transfer,mobile app,Groceries,1,,Medium,2,1,Yes,36,,,671816.76,LATE,BR003,Reversed,
+CUST01267,18-25,Female,Uganda,Corporate,Wallet,TXN000123,22/10/2024,2140.76,deposit,mobile app,Groceries,1,402,low,-1,Y,,,150k-500k,,306434.78,LATE,BR002,Completed,600
+CUST01396,26-35,Male,Uganda,,Current,TXN000314,09/04/2024,4251.3,WITHDRAWAL,mobile app,Education,,,Med,0,0,No,,>1M,90992.17,360528.63,Current,br007,Failed,
+CUST01033,36-45,F,GHANA,Retail,Wallet,TXN000199,06/15/2024,7348.85,WITHDRAWAL,USSD,Fuel,0,-50,HIGH,3,1,FALSE,9999,150k-500k,,564212.95,Late,BR001,Pending,2.58
+CUST01181,26-35,,Uganda,Retail,Wallet,TXN000008,04/09/2024,2517.12,Deposit,ATM,Utilities,No,400,Medium,,Y,Yes,15,50k-150k,,112145.84,N/A,BR004,Reversed,600
+CUST01087,26-35,Female,Egypt,Retail,Savings,TXN000230,2024-13-45,2648.48,Payment,USSD,Restaurants,,,Medium,1,N,No,39,50k-150k,,145824.41,current,BR-006,Completed,
+CUST01308,26-35,Female,Rwanda,Student,Wallet,TXN000268,16/07/2024,8588.26,Transfer,Branch,Fuel,,1500,HIGH,-1,N,No,39,<50k,-1000,68953.52,Current,BR003,Pending,
+CUST01202,56-65,female,SOUTH AFRICA,Corporate,Wallet,TXN000295,14/07/2024,2213.7,Transfer,atm,Restaurants,0,999,High,3,Yes,No,48,500k-1M,-1000,281259.96,Current,BR002,Reversed,600
+CUST01325,18-25,Male,EGYPT,Affluent,Fixed Deposit,TXN000500,01/20/2024,2826.18,WITHDRAWAL,mobile app,Utilities,,999,Med,,No,,9999,,-1000,201334.54,N/A,BR001,Completed,6.06
+CUST01089,46-55,female,EGYPT,SME,Fixed Deposit,TXN000329,23/09/2024,401.67,Withdrawal,Internet Banking,Telecom,0,-50,low,3,Yes,Yes,,>1M,,144537.99,LATE,BR003,Completed,600
+CUST01047,46-55,Female,SOUTH AFRICA,SME,CURRENT,TXN000017,25/02/2024,1017.71,Payment,Branch,Telecom,0,325,Med,2,1,Yes,,>1M,-1000,155548.19,N/A,BR001,completed,600
+CUST01237,18-25,female,Rwanda,Student,Current,TXN000333,01/08/2024,1758.64,Withdrawal,USSD,Fuel,,999,low,0,Yes,TRUE,9999,500k-1M,,7090.99,Default,BR003,Pending,
+CUST01269,65+,female,EGYPT,SME,Savings,TXN000396,02/03/2024,4786.29,Withdrawal,atm,Misc,No,999,low,,1,FALSE,17,<50k,101777.47,673140.28,Current,BR004,Completed,-2
+CUST01312,36-45,,kenya,SME,Savings,TXN000270,14/08/2024,171.5,WITHDRAWAL,ATM,Fuel,,,low,0,0,TRUE,,150k-500k,,586041.52,Default,BR005,Failed,-2
+CUST01001,18-25,female,SOUTH AFRICA,Corporate,Current,TXN000532,08/14/2024,2285.09,WITHDRAWAL,POS,Restaurants,0,1500,Low,0,Yes,Yes,9999,500k-1M,222066.53,591331.51,current,BR005,Reversed,600
+CUST01377,18-25,F,Uganda,Affluent,Current,TXN000502,01/04/2024,11953.76,Payment,mobile app,Telecom,0,1500,High,2,Y,Yes,9999,>1M,452681.15,474349.73,Default,BR002,Failed,1.55
+CUST01060,36-45,male,Uganda,Retail,Current,TXN000027,03/09/2024,5978.97,Withdrawal,ATM,Travel,No,999,low,1,1,,9999,,480054.39,758072.16,current,BR004,Pending,
+CUST01281,26-35,F,KENYA,SME,savings,TXN000375,16/10/2024,2258.83,Airtime,mobile app,Utilities,,1500,Med,0,N,TRUE,23,<50k,,585601.29,LATE,BR002,Completed,-2
+CUST01276,56-65,F,Ghana,,Current,TXN000600,11/03/2024,10866.61,Airtime,Branch,Education,1,689,Med,,0,FALSE,9999,<50k,,433581.42,LATE,BR005,Pending,600
+CUST01207,,female,Tanzania,,savings,TXN000580,01/06/2024,160,Withdrawal,ATM,Groceries,1,335,HIGH,-1,1,,,<50k,495710.98,369370.5,Default,br007,Reversed,600
+CUST01171,65+,M,Nigria,Affluent,CURRENT,TXN000109,17/02/2024,7562.06,Withdrawal,mobile app,Utilities,0,,HIGH,2,N,Yes,9999,>1M,139912.64,737019.52,Current,BR004,Failed,600
+CUST01259,56-65,Male,GHANA,Student,Savings,TXN000517,22/09/2024,3107.95,Withdrawal,Branch,Misc,0,-50,Med,-1,,No,9999,150k-500k,,704578.41,N/A,BR001,Pending,7.92
+CUST01077,46-55,female,South Africa,Corporate,CURRENT,TXN000229,16/06/2024,1387.86,Airtime,atm,Education,,1500,High,2,N,Yes,18,>1M,31474.75,667958.01,Late,br007,Pending,-2
+CUST01274,36-45,male,TZ,,CURRENT,TXN000105,01/02/2024,3531.78,deposit,Internet Banking,Groceries,No,999,Medium,,,No,3,500k-1M,,92789.27,Default,BR005,completed,4.94
+CUST01075,36-45,male,Uganda,,savings,TXN000379,08/17/2024,4307.8,Withdrawal,USSD,Misc,0,809,High,3,0,FALSE,23,150k-500k,372182.56,736517.8,N/A,BR005,Reversed,3.08
+CUST01412,,,S. Africa,SME,Current,TXN000543,04/03/2024,6748.12,deposit,POS,Travel,0,999,Med,2,0,FALSE,9999,500k-1M,,85197.44,N/A,BR005,Pending,
+CUST01369,65+,F,TZ,Student,Savings,TXN000564,11/01/2024,4683.54,WITHDRAWAL,mobile app,,No,999,High,0,Yes,,56,<50k,,201679.01,N/A,BR002,Failed,
+CUST01122,56-65,F,S. Africa,,Savings,TXN000579,07/10/2024,937.51,Withdrawal,Mobile App,Misc,0,,Med,3,Y,Yes,9999,50k-150k,110939.41,644758.39,N/A,BR002,Failed,600
+CUST01263,65+,F,Tanzania,,savings,TXN000227,12/07/2024,470.48,WITHDRAWAL,Branch,Restaurants,,999,High,0,0,,45,150k-500k,280379.1,110724.65,current,BR-006,Reversed,2.75
+CUST01203,18-25,Male,Rwanda,Student,CURRENT,TXN000414,14/12/2024,682.89,Deposit,ATM,Healthcare,0,,HIGH,1,0,Yes,,50k-150k,327637.98,654636.71,Current,BR-006,completed,7.03
+CUST01150,56-65,M,Rwanda,Affluent,Savings,TXN000176,13/09/2024,3345.32,deposit,Internet Banking,Groceries,0,1500,HIGH,-1,,,9999,150k-500k,-1000,124020.38,current,BR002,Pending,-2
+CUST01184,,M,TZ,SME,Savings,TXN000135,09/08/2024,5365900,WITHDRAWAL,mobile app,Education,0,346,low,,0,No,,,-1000,214647.52,Late,BR001,Failed,-2
+CUST01185,18-25,M,EGYPT,Affluent,CURRENT,TXN000399,14/04/2024,6100.87,Deposit,Mobile App,Retail,0,312,HIGH,3,0,TRUE,,>1M,,370179.41,Default,BR001,Reversed,600
+CUST01005,18-25,M,Egypt,Corporate,Wallet,TXN000352,25/06/2024,3209.09,Payment,POS,Telecom,0,,Med,0,1,,9999,,,36544.49,Current,BR003,Reversed,-2
+CUST01172,65+,female,KENYA,SME,savings,TXN000183,17/12/2024,-3389.3,Withdrawal,Branch,Utilities,1,999,High,2,1,FALSE,9999,500k-1M,65187.59,384738,Default,BR-006,completed,600
+CUST01225,65+,M,GHANA,Corporate,CURRENT,TXN000495,12/02/2024,8976.81,Airtime,atm,Groceries,1,999,HIGH,1,Yes,No,9999,>1M,,733411.21,N/A,BR002,Pending,
+CUST01043,36-45,,NIGERIA,,Savings,TXN000346,25/03/2024,784.39,deposit,Internet Banking,Restaurants,0,1500,Medium,,0,TRUE,,500k-1M,174192.84,216874.62,N/A,BR-006,Reversed,-2
+CUST01276,26-35,F,Egypt,Corporate,Fixed Deposit,TXN000582,03/02/2024,1052.48,Transfer,ATM,Retail,0,651,Medium,-1,N,No,9999,>1M,78839.05,485254.67,current,BR004,Completed,4.1
+CUST01057,65+,male,Ghana,Retail,Savings,TXN000192,21/08/2024,1997.35,Transfer,Mobile App,Healthcare,Yes,,Med,3,0,No,,500k-1M,,553373.94,LATE,br007,completed,
+CUST01126,26-35,Male,Ghana,SME,Wallet,TXN000336,05/04/2024,1147.89,Payment,ATM,,No,,Medium,0,N,Yes,9999,<50k,251166.97,150935.2,Current,BR004,Reversed,
+CUST01194,65+,Female,Rwanda,Retail,Fixed Deposit,TXN000082,19/10/2024,1475.12,deposit,mobile app,Retail,1,1500,Medium,-1,0,FALSE,,50k-150k,,250337.62,Default,BR002,Reversed,
+CUST01371,46-55,male,Rwanda,Affluent,Savings,TXN000267,07/12/2024,5011.12,Payment,POS,Education,,-50,Medium,3,Yes,TRUE,9999,>1M,,93552.59,Late,BR005,Pending,-2
+CUST01380,36-45,Female,Kenya,SME,CURRENT,TXN000169,05/11/2024,730460,Withdrawal,Internet Banking,Groceries,0,1500,Low,0,,FALSE,33,,-1000,124219.49,Default,br007,Pending,600
+CUST01405,18-25,Female,Uganda,Affluent,savings,TXN000415,23/05/2024,7122.61,Airtime,Branch,Travel,0,1500,Low,1,Y,FALSE,12,500k-1M,-1000,460960.95,LATE,BR004,Pending,600
+CUST01028,26-35,Male,Ghana,SME,Savings,TXN000349,05/07/2024,13086.15,WITHDRAWAL,Internet Banking,Education,No,686,Med,1,Yes,Yes,9999,50k-150k,-1000,696381.58,LATE,BR005,Pending,-2
+CUST01400,46-55,female,Egypt,Corporate,Savings,TXN000106,06/10/2024,1860.03,Transfer,Internet Banking,Retail,0,575,Low,1,,FALSE,9999,>1M,-1000,780040.47,LATE,BR-006,Completed,600
+CUST01030,36-45,male,Uganda,Student,Wallet,TXN000560,13/02/2024,3799.99,Airtime,Branch,Retail,,999,Med,0,N,,9999,50k-150k,143831.38,493107.88,current,BR002,completed,600
+CUST01401,26-35,male,NIGERIA,Retail,Wallet,TXN000200,04/09/2024,9783.69,Deposit,USSD,Groceries,0,1500,Med,0,Y,FALSE,9999,>1M,,114636.04,Current,BR003,Reversed,
+CUST01141,26-35,F,Nigeria,Retail,Savings,TXN000228,10/03/2024,1866.05,Deposit,Mobile App,Telecom,1,-50,High,2,0,,9999,<50k,,496761.01,LATE,BR002,Reversed,6.42
+CUST01120,36-45,female,Tanzania,Corporate,Fixed Deposit,TXN000401,2024-13-45,322.58,Payment,USSD,,0,823,Low,0,Y,,9999,50k-150k,-1000,341180.26,Default,BR001,Pending,2.34
+CUST01144,36-45,Male,Uganda,Student,CURRENT,TXN000051,10/06/2024,12345.67,deposit,mobile app,Telecom,1,999,HIGH,1,Yes,,,,-1000,681253.01,Current,BR003,completed,
+CUST01169,,female,Kenya,Corporate,Current,TXN000546,28/10/2024,"NGN 22,414.52",Transfer,Internet Banking,Misc,0,-50,Med,-1,No,No,,>1M,,86030.78,Current,BR004,completed,4.79
+CUST01370,56-65,,SOUTH AFRICA,Affluent,Wallet,TXN000137,02/25/2024,2928.38,Payment,POS,Fuel,0,1500,High,2,Y,FALSE,9999,150k-500k,-1000,43652.89,Current,BR005,Failed,
+CUST01415,56-65,male,Uganda,Student,CURRENT,TXN000253,01/12/2024,"NGN 1,281.02",WITHDRAWAL,ATM,Misc,No,1500,Med,-1,Y,FALSE,56,50k-150k,-1000,208776.06,LATE,BR004,Failed,600
+CUST01274,,,Nigeria,Corporate,Wallet,TXN000191,20/05/2024,2403.07,Deposit,Internet Banking,Education,No,,Med,,Yes,,9999,500k-1M,382579.94,151880.27,Current,BR-006,completed,-2
+CUST01341,18-25,Male,kenya,,CURRENT,TXN000302,13/08/2024,5186.37,Transfer,mobile app,Fuel,1,1500,low,1,Yes,Yes,,<50k,205048.03,202213.29,Current,BR003,Completed,600
+CUST01211,18-25,Female,Uganda,Corporate,savings,TXN000362,11/10/2024,11228.18,Transfer,Internet Banking,,0,999,low,,Y,TRUE,,50k-150k,336650.41,720149.8,current,BR004,Failed,3.37
+CUST01115,26-35,Female,Tanzania,Student,Fixed Deposit,TXN000144,23/08/2024,5987.06,Withdrawal,ATM,Telecom,0,1500,High,,Yes,No,9999,>1M,,32507.39,Current,br007,completed,-2
+CUST01023,36-45,Female,kenya,SME,Fixed Deposit,TXN000201,18/10/2024,5812.82,Airtime,Mobile App,Fuel,0,-50,HIGH,,No,TRUE,12,150k-500k,-1000,255319.83,current,BR003,Pending,3.58
+CUST01275,26-35,F,RSA,Retail,Current,TXN000404,25/05/2024,4484.72,Airtime,atm,Utilities,,999,Medium,1,Yes,Yes,,<50k,252512.97,460809.4,N/A,BR001,Failed,
+CUST01342,26-35,M,NIGERIA,Affluent,Savings,TXN000472,21/12/2024,,Transfer,Internet Banking,Fuel,0,636,HIGH,2,,Yes,,>1M,,286871.15,LATE,BR003,Reversed,-2
+CUST01266,36-45,Male,Rwanda,Corporate,savings,TXN000403,21/06/2024,1254.37,Payment,Branch,Education,,,low,0,,TRUE,,50k-150k,157408.19,554458.51,current,br007,Failed,600
+CUST01236,56-65,F,RSA,,savings,TXN000537,19/10/2024,770.19,deposit,mobile app,Retail,0,,HIGH,0,N,No,,500k-1M,,542020.33,Late,BR005,Reversed,600
+CUST01201,26-35,M,Ghana,Affluent,CURRENT,TXN000187,13/12/2024,1703.36,Airtime,Branch,Travel,0,,Medium,-1,Yes,TRUE,,>1M,445201.04,755309.36,Late,BR004,Pending,
+CUST01067,56-65,M,KENYA,Affluent,Current,TXN000258,25/08/2024,4955.02,Withdrawal,atm,Groceries,,566,Medium,0,No,FALSE,,50k-150k,,226340.41,Current,BR002,Failed,-2
+CUST01264,56-65,female,SOUTH AFRICA,Student,Wallet,TXN000275,10/16/2024,2422.81,deposit,mobile app,Education,1,1500,Med,0,Yes,FALSE,56,500k-1M,,62458.15,LATE,BR004,Failed,600
+CUST01064,65+,M,Uganda,Retail,Savings,TXN000384,17/11/2024,2485.6,deposit,ATM,Fuel,0,1500,HIGH,0,Yes,TRUE,9999,50k-150k,-1000,77919.25,current,BR-006,Reversed,600
+CUST01205,18-25,Male,NIGERIA,Corporate,savings,TXN000351,01/06/2024,1992.24,Withdrawal,USSD,Telecom,Yes,1500,HIGH,1,0,FALSE,,<50k,,517317.76,Current,BR002,completed,1.64
+CUST01048,26-35,F,Nigria,,CURRENT,TXN000181,20/02/2024,1758.09,deposit,USSD,Groceries,0,-50,Med,0,Y,TRUE,9999,>1M,199899.12,587412.76,N/A,BR001,Completed,600
+CUST01405,56-65,,Uganda,Affluent,Wallet,TXN000555,07/06/2024,6585.96,Deposit,ATM,Education,0,,Medium,0,1,FALSE,9999,<50k,373867.17,780909.81,current,BR003,Completed,600
+CUST01161,,Male,Nigria,Student,CURRENT,TXN000287,08-May-24,NGN 865.71,Deposit,atm,Fuel,No,,High,0,No,No,,<50k,-1000,500235.76,Default,BR005,Failed,600
+CUST01211,18-25,M,South Africa,Corporate,Current,TXN000172,01/12/2024,805.56,Withdrawal,Mobile App,Telecom,Yes,-50,Low,1,0,,31,500k-1M,160321.86,39705.66,Late,BR003,Reversed,
+CUST01206,65+,M,Tanzania,Student,Fixed Deposit,TXN000128,18/11/2024,5110.24,Withdrawal,USSD,Utilities,No,999,low,2,N,Yes,9999,50k-150k,497376.87,274533.64,LATE,BR003,completed,600
+CUST01241,,Female,RSA,Affluent,savings,TXN000032,18/06/2024,3205.29,WITHDRAWAL,mobile app,Education,1,,High,1,,FALSE,9999,50k-150k,133586.33,226271.19,LATE,BR002,completed,600
+CUST01111,18-25,,Rwanda,Corporate,Current,TXN000040,2024-13-45,12027.59,Deposit,Branch,,,999,Medium,0,N,TRUE,12,50k-150k,,73338.74,Default,br007,Failed,1.78
+CUST01187,56-65,Female,nigeria,Corporate,Wallet,TXN000583,03/10/2024,1085.39,WITHDRAWAL,ATM,Travel,0,1500,Medium,3,0,Yes,9999,,64393.22,751076.17,N/A,BR001,Pending,7.56
+CUST01391,26-35,F,RSA,SME,CURRENT,TXN000468,01/06/2024,6172.97,deposit,Mobile App,Healthcare,0,-50,High,0,,TRUE,4,>1M,,112352.27,Current,br007,completed,
+CUST01023,26-35,female,NIGERIA,SME,savings,TXN000340,15/09/2024,5399.31,Airtime,USSD,Retail,1,-50,Medium,0,N,,9999,150k-500k,,485774.7,LATE,BR003,completed,1.73
+CUST01254,18-25,Male,S. Africa,Affluent,Current,TXN000391,11/09/2024,3379.32,Deposit,Branch,Retail,0,999,High,-1,Yes,FALSE,9999,500k-1M,188059.11,455321.94,LATE,BR003,Completed,-2
+CUST01092,18-25,female,EGYPT,,Current,TXN000400,09/12/2024,1201.94,Transfer,ATM,Misc,0,,High,-1,1,Yes,14,>1M,327300.41,547553.11,LATE,BR001,completed,-2
+CUST01121,18-25,,nigeria,Affluent,CURRENT,TXN000370,25/06/2024,71.99,Transfer,mobile app,Utilities,0,1500,HIGH,0,,FALSE,9999,150k-500k,459017.24,269911.9,N/A,BR005,Completed,600
+CUST01389,26-35,,NIGERIA,Retail,Wallet,TXN000031,27-Nov-24,1242.75,Withdrawal,atm,Retail,Yes,1500,HIGH,0,Yes,,51,,,440671.21,Default,BR004,Reversed,4.46
+CUST01073,18-25,Male,GHANA,Corporate,savings,TXN000276,05/09/2024,4967.4,Deposit,POS,Retail,1,-50,High,,No,FALSE,30,150k-500k,-1000,295465.65,Default,BR004,Completed,600
