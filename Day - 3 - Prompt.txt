@@ -1,0 +1,29 @@
+Find duplicate rows in this banking dataset for each type of duplicate,explain a likely business cause and recommend a treatment.
+
+Clean up the data by following the steps bellow:
+-if not customer_id should start with CUST and end with 5numbers,remove the row to a new sheet titled"error_data"
+-if age_group is 65+,replace with 65-200.if the age group is less than 18,remove the row and append to error_data sheet
+-for gender column,replace all records with F for female and M for male.move null values and append to the error_data sheet
+-replace all country with the 2_letter ISO3166 alpha country code
+-trim all account_type records and capitalise them to either CURRENT,SAVINGS,FIXED DEPOSIT and WALLET.move other account types and append to error_data sheet
+-Transaction_id must not be duplicated,have to start with TXN and end with 6 digital if any duplictate remove the row and append to error_data sheet
+-trim all Customer_segment records and capitalise them to either SME,CORPORATE,STUDENT,RETAIL and AFFLUENT.move other account types and append to error_data sheet
+-replace all transaction_date with the format date YYYY-MM-DD ISO8601 alpha country code
+-replace all transaction_amount with no decimal values
+-trim all transaction_type records and capitalise them to either DEPOSIT,PAYMENT,WITHDRAWAL,AIRTIME and TRANSFER.move other account types and append to error_data sheet
+-trim all channel records and capitalise them to either BRANCH,ATM,USSD,POS,INTERNET BANKING and MOBILE APP.move other account types and append to error_data sheet
+-trim all merchant_category records and capitalise them to either EDUCATION,TRAVEL,HEALTHCARE,RETAIL,GROCERIES,FUEL,TELECOM,MISC,UTILITIES and RESTAURANTS.move other account types and append to error_data sheet
+-if fraud_frag is 1 or yes,replace with TRUE.if the fraud_frag is 0 or no or blank replace with FALSE,remove the row and append to error_data sheet
+-if credit_score is less than 1,replace with 0.remove the row and append to error_data sheet
+-trim all risk_rating records and capitalise them to either MEDIUM,LOW,HIGH and MED.move other account types and append to error_data sheet
+-if complaint_count is negative or blank,replace with 0.remove the row and append to error_data sheet
+-if mobile_app_usage is 1 or yes,replace with YES.if the mobile_app_usage is 0 or no or blank replace with NO,remove the row and append to error_data sheet
+-if internet_banking_usage is true or yes,replace with TRUE.if the internet_banking_usage is false or no or blank replace with FALSE,remove the row and append to error_data sheet
+-if login_frequency is blank,remove the row and append to error_data sheet
+-if income_band is blank,remove the row and append to error_data sheet
+-if loan_balance is decimal round it down.and if loan_balance is blank or negative,replace with 0 remove the row and append to error_data sheet
+-trim all repayment_status records and capitalise them to either LATE,CURRENT and DEFAULT.move other account types and append to error_data sheet
+-trim all branch_code records and capitalise them have to start with BR and end with 3 digital.move other account types and append to error_data sheet
+-transaction_status
+-processing_time
+izo ebyiri zanyuma ntizikoze 
