@@ -24,6 +24,5 @@ Clean up the data by following the steps bellow:
 -if loan_balance is decimal round it down.and if loan_balance is blank or negative,replace with 0 remove the row and append to error_data sheet
 -trim all repayment_status records and capitalise them to either LATE,CURRENT and DEFAULT.move other account types and append to error_data sheet
 -trim all branch_code records and capitalise them have to start with BR and end with 3 digital.move other account types and append to error_data sheet
--transaction_status
--processing_time
-izo ebyiri zanyuma ntizikoze 
+-transaction_status (Remain)
+-processing_time (Remain)
